@@ -1,0 +1,26 @@
+{
+  "name": "schlueter-agentic-web-design",
+  "version": "0.1.0",
+  "description": "Agentic Web Design Workflow (deutsche Discovery) — installiert AGENTS.md, CLAUDE.md, Slash-Commands und Referenz-Docs in jedes Projekt",
+  "type": "module",
+  "bin": {
+    "schlueter-agentic-web-design": "./bin/cli.js"
+  },
+  "files": [
+    "bin",
+    "AGENTS.md",
+    "CLAUDE.md",
+    "agent-docs",
+    "commands",
+    "templates"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": ["agents", "ai", "wordpress", "automatic-css", "etch", "web-design", "discovery"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexS1986/schlueter-agentic-web-design.git"
+  }
+}

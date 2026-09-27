@@ -1,6 +1,6 @@
 {
   "name": "schlueter-agentic-web-design",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Agentic Web Design Workflow (deutsche Discovery) — installiert AGENTS.md, CLAUDE.md, Slash-Commands und Referenz-Docs in jedes Projekt",
   "type": "module",
   "bin": {

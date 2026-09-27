@@ -1,4 +1,4 @@
-# Projekt: [Kunde] – Website
+# Projekt: [Kunde] – Website & Google-Unternehmensprofil
 
 > **Für jeden Agenten (Claude Code, Claude Cowork, Cursor, Copilot, …):** Diese Datei bringt dich auf den aktuellen Stand des Projekts. Lies sie zuerst, dann `AGENTS.md` (Workflow, Stack, welches `agent-docs/`-Dokument du wann lädst). Sie wird vom Menschen gepflegt – an jedem Prozess-Gate wird die Status-Tabelle aktualisiert. Bei Widersprüchen zwischen dieser Datei und älteren Chat-Verläufen gilt diese Datei.
 
@@ -18,7 +18,8 @@
 | Prozess & Fortschritt (Obsidian) | Vault `GTD` → `02 Projects/Webdesign/Project - [Kunde]` und `Tracker - [Kunde] (Webdesign)` |
 | Prozess-Beschreibung | Vault `GTD` → `05 Reference/Prozesse/Prozess Webdesign` |
 | Kundenordner (Drive) | [URL] – Angebot, Freigaben, Inhalte, Fotos, Reports |
-| Dieser Code-Ordner | `[Pfad, z. B. Webdesign/Projekte/[Kunde]/05_Entwicklung]` |
+| Dieser Projektordner (Kundenordner) | `Webdesign/Projekte/[Kunde]/` – enthält diese Datei, `AGENTS.md`, `agent-docs/`, `discovery/` und die Unterordner 00–08 |
+| Code (WordPress/Etch-Exports, Theme, Assets) | `05_Entwicklung/` – ab Phase 10 |
 | Discovery-Brief | `discovery/brief.md` – Status: [nicht begonnen / in Arbeit / abgeschlossen / freigegeben am …] |
 | Offer-Messaging-Workbook | `discovery/workbook-*.md` [vorhanden / nicht vorhanden] |
 | Sitemap & Seitenzweck-Matrix | [Drive-Link oder Pfad] |
@@ -26,6 +27,16 @@
 | Staging | [URL] – Zugang über Passwort-Manager (nie hier eintragen) – ab Phase 10 |
 | Live-Site | [URL] – ab Phase 11 |
 | Tracking | GA4 [Property-ID] · Search Console [Property] · GTM [Container-ID] |
+
+## Google-Unternehmensprofil *(nur bei GBP-Mandat)*
+
+- **Mandat:** [Setup / Setup + Betreuung / keins] · Tracker in Obsidian: `Tracker - [Kunde] (GBP)`
+- **Profil:** [Google-Maps-Link] – Zugang: Verwalter per Einladung (kein Passwort)
+- **Ausgangswerte:** `08_GBP/Baseline/` – bestätigt am [Datum]
+- **UTM-Konvention:** [utm_source=google&utm_medium=organic&utm_campaign=gbp-…] – identisch für Website und Profil
+- **Bewertungslink / QR:** [Link] · Antwortvorlagen: Obsidian `GBP-DE-07`
+- **Monatszyklus:** fester Termin [x. Werktag], Report in `08_GBP/Reports/JJJJ-MM/`
+- **Regeln:** Nichts am Profil ändern ohne Anweisung; regulierte Berufe: Schweigepflicht in Bewertungsantworten; keine Bewertungsanreize
 
 ## Stack & Tools
 

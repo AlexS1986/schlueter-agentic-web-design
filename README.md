@@ -11,7 +11,7 @@ Agentic Web-Design-Workflow für Kundenprojekte – eine Adaption von [gearyco-a
 
 ```bash
 npx schlueter-agentic-web-design              # ins aktuelle Verzeichnis
-npx schlueter-agentic-web-design ./kunde-xy   # in ein Zielverzeichnis
+npx schlueter-agentic-web-design ./kunde-xy   # in ein Zielverzeichnis – empfohlen: der Kundenordner (Projekte/<Kunde>/), nicht ein Code-Unterordner
 npx schlueter-agentic-web-design --force      # vorhandene Docs überschreiben (brief.md bleibt immer erhalten)
 npx schlueter-agentic-web-design --no-harness # nur AGENTS.md + agent-docs/, keine Harness-Dateien
 ```
@@ -34,8 +34,8 @@ discovery/workbook-*.md            # optional: ausgefüllte Offer-Messaging-Work
 
 ## Projekt starten
 
-1. `CLAUDE.md` ausfüllen – Kunde, Ziel, Ansprechpartner, Links zu Obsidian-Tracker und Drive-Ordner. Diese Datei ist das Briefing für **jeden** Agenten (Claude Code, Claude Cowork, Cursor, Copilot) und wird an jedem Prozess-Gate aktualisiert (Status-Tabelle). Paper-Design- und Etch-Angaben kommen dazu, sobald diese Phasen beginnen.
-2. Optional: ein Claude-Projekt (Cowork) „[Kunde] Website“ anlegen, diesen Ordner verbinden, Projekt-Anweisung: *„Lies zuerst CLAUDE.md, dann AGENTS.md.“*
+1. Im **Kundenordner** installieren (`Projekte/<Kunde>/`), damit Agenten Angebot, Brief, Fotos und GBP-Unterlagen sehen; Code kommt später nach `05_Entwicklung/`. Dann `CLAUDE.md` ausfüllen – Kunde, Ziel, Ansprechpartner, Links zu Obsidian-Tracker, GBP-Abschnitt falls Mandat. Diese Datei ist das Briefing für **jeden** Agenten (Claude Code, Claude Cowork, Cursor, Copilot) und wird an jedem Prozess-Gate aktualisiert (Status-Tabelle). Paper-Design- und Etch-Angaben kommen dazu, sobald diese Phasen beginnen.
+2. Ein Claude-Projekt (Cowork) **pro Kunde** anlegen („[Kunde]“), den Kundenordner verbinden, Projekt-Anweisung: *„Lies zuerst CLAUDE.md, dann AGENTS.md.“*
 3. Projekt im KI-Tool öffnen und sagen:
 
 ```

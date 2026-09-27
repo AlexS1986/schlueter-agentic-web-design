@@ -6,6 +6,8 @@ Agent instructions for Schlueter web projects. Load the referenced docs in `agen
 
 Schlueter Agentic Web Design is the standard operating system for building WordPress sites with Etch and Automatic.css. One source of truth, any harness.
 
+**Read `CLAUDE.md` in the project root first.** It is the per-project context file (client, goal, where things live, tools such as Paper Design and Etch, current process status, project rules) and is maintained by the human at every process gate. This file (`AGENTS.md`) describes the *method*; `CLAUDE.md` describes *this project*. If `CLAUDE.md` still contains placeholders, ask the user to fill them in before starting.
+
 ## Language
 
 - **Everything client-facing is German.** The discovery interview (`agent-docs/discovery.md`), the discovery brief (`discovery/brief.md`), and all website copy produced from the brief are written in German.

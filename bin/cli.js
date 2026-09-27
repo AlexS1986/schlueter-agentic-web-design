@@ -14,7 +14,8 @@ const DIRS = ["agent-docs"];
 
 // Harness-specific glue: [source in package, destination in project]
 const HARNESS_FILES = [
-  ["CLAUDE.md", "CLAUDE.md"], // Claude Code
+  // CLAUDE.md is NOT in this list: it is the per-project context file (templates/CLAUDE.project.md),
+  // created once and never overwritten – see main().
   ["commands/discovery.md", ".claude/commands/discovery.md"], // Claude Code: /discovery
   ["commands/brief.md", ".claude/commands/brief.md"], // Claude Code: /brief
 ];
@@ -27,8 +28,8 @@ Usage:
   npx ${pkg.name} [directory] [options]
 
 Options:
-  --force, -f       Overwrite existing AGENTS.md, CLAUDE.md, agent-docs/, .claude/commands/
-  --no-harness      Only install AGENTS.md + agent-docs/ (skip CLAUDE.md, .claude/commands, Cursor, Copilot glue)
+  --force, -f       Overwrite existing AGENTS.md, agent-docs/, .claude/commands/ (CLAUDE.md and discovery/brief.md are always kept)
+  --no-harness      Only install AGENTS.md + agent-docs/ (skip .claude/commands, Cursor, Copilot glue)
   --help, -h        Show this help message
 
 Examples:
@@ -105,7 +106,7 @@ function copyPackageFiles(target, force, harness) {
       mkdirSync(dirname(cursorRule), { recursive: true });
       writeFileSync(
         cursorRule,
-        `---\ndescription: Schlueter Agentic Web Design workflow\nalwaysApply: true\n---\n\nRead and follow AGENTS.md in the project root. Load the agent-docs/ file it names for the current workflow step. "Discovery starten" or /discovery runs agent-docs/discovery.md in German.\n`
+        `---\ndescription: Schlueter Agentic Web Design workflow\nalwaysApply: true\n---\n\nRead CLAUDE.md in the project root first (project context and current status), then AGENTS.md. Load the agent-docs/ file it names for the current workflow step. "Discovery starten" or /discovery runs agent-docs/discovery.md in German.\n`
       );
       written.push(".cursor/rules/agentic-web-design.mdc");
     }
@@ -115,7 +116,7 @@ function copyPackageFiles(target, force, harness) {
       mkdirSync(dirname(copilot), { recursive: true });
       writeFileSync(
         copilot,
-        `Read and follow AGENTS.md in the project root. Load the agent-docs/ file it names for the current workflow step. "Discovery starten" runs agent-docs/discovery.md in German.\n`
+        `Read CLAUDE.md in the project root first (project context and current status), then AGENTS.md. Load the agent-docs/ file it names for the current workflow step. "Discovery starten" runs agent-docs/discovery.md in German.\n`
       );
       written.push(".github/copilot-instructions.md");
     }
@@ -171,13 +172,22 @@ function main() {
     cpSync(join(packageRoot, "templates", "discovery-brief.md"), briefDest);
   }
 
+  // CLAUDE.md is the per-project context file (client, links, status). Like brief.md it is
+  // created once from the template and never overwritten, not even with --force.
+  const claudeDest = join(target, "CLAUDE.md");
+  const claudeExisted = existsSync(claudeDest);
+  if (!claudeExisted) {
+    cpSync(join(packageRoot, "templates", "CLAUDE.project.md"), claudeDest);
+  }
+
   console.log(`Installed ${pkg.name}@${pkg.version} to ${target}`);
   for (const w of written) {
     console.log(`  ${w}${w === "agent-docs/" ? ` (${countAgentDocs()} reference docs)` : ""}`);
   }
   console.log(`  discovery/brief.md ${briefExisted ? "(kept)" : "(created)"}`);
-  console.log("\nYour AI coding tool will pick up AGENTS.md / CLAUDE.md automatically.");
-  console.log("Next step: open the project in your AI coding tool and say  Discovery starten  (or /discovery in Claude Code)");
+  console.log(`  CLAUDE.md ${claudeExisted ? "(kept – project context)" : "(created – fill in the project context)"}`);
+  console.log("\nYour AI coding tool will pick up CLAUDE.md / AGENTS.md automatically.");
+  console.log("Next steps: 1) fill in CLAUDE.md (client, goal, links)  2) say  Discovery starten  (or /discovery in Claude Code)");
 }
 
 main();

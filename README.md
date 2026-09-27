@@ -20,7 +20,7 @@ Das legt an:
 
 ```
 AGENTS.md                          # Einstiegspunkt – Workflow, Stack, Doc-Index (Codex, Cursor, Copilot, Gemini CLI, Jules …)
-CLAUDE.md                          # Claude Code – verweist auf AGENTS.md
+CLAUDE.md                          # PROJEKT-KONTEXT: Kunde, Ziel, Links (Obsidian, Drive, Paper, Staging), Status, Regeln – wird nie überschrieben
 .claude/commands/discovery.md      # Claude Code: /discovery
 .claude/commands/brief.md          # Claude Code: /brief (Stand des Briefs)
 .cursor/rules/agentic-web-design.mdc
@@ -34,7 +34,9 @@ discovery/workbook-*.md            # optional: ausgefüllte Offer-Messaging-Work
 
 ## Projekt starten
 
-Projekt im KI-Tool öffnen und sagen:
+1. `CLAUDE.md` ausfüllen – Kunde, Ziel, Ansprechpartner, Links zu Obsidian-Tracker und Drive-Ordner. Diese Datei ist das Briefing für **jeden** Agenten (Claude Code, Claude Cowork, Cursor, Copilot) und wird an jedem Prozess-Gate aktualisiert (Status-Tabelle). Paper-Design- und Etch-Angaben kommen dazu, sobald diese Phasen beginnen.
+2. Optional: ein Claude-Projekt (Cowork) „[Kunde] Website“ anlegen, diesen Ordner verbinden, Projekt-Anweisung: *„Lies zuerst CLAUDE.md, dann AGENTS.md.“*
+3. Projekt im KI-Tool öffnen und sagen:
 
 ```
 Discovery starten

@@ -8,7 +8,8 @@ Schlueter Agentic Web Design is the standard operating system for building WordP
 
 ## Language
 
-- **Everything client-facing is German.** The discovery interview (`agent-docs/discovery.md`), the discovery brief (`discovery/brief.md`), and all website copy produced from the brief are written in German. Address the client with "du" unless they use "Sie" first.
+- **Everything client-facing is German.** The discovery interview (`agent-docs/discovery.md`), the discovery brief (`discovery/brief.md`), and all website copy produced from the brief are written in German.
+- **Address the client with "Sie" throughout the interview.** Switch to "du" only when the user explicitly instructs it. The form of address used *on the website* is a separate brand decision, captured in discovery phase 6 (`Anrede auf der Website`) and binding for all copy.
 - The remaining reference docs (copywriting, design, ACSS, Etch, HTML, CSS) are in English and describe method and conventions only; apply them to produce German output.
 
 ## Workflow
@@ -29,6 +30,8 @@ Schlueter Agentic Web Design is the standard operating system for building WordP
 Every project begins with a guided discovery interview. When the user says `Discovery starten`, `start discovery`, `/discovery`, "Discovery beginnen", or asks to kick off a new project, load and follow [agent-docs/discovery.md](agent-docs/discovery.md) and run the interview to completion — in German.
 
 Do not skip ahead to copywriting, wireframing, or design until the discovery brief at `discovery/brief.md` is complete and the user has approved it. If a brief already exists, resume it rather than starting over.
+
+**Optional input: Offer-Messaging-Workbook.** If the agency has already run the Offer Messaging workshop with the client, the filled workbook is placed under `discovery/` (`workbook*.md|txt|pdf|docx`, one per offer). The interview then runs in *workbook mode* (see `agent-docs/discovery.md`, section "Optionaler Input"): pre-fill the brief from the workbook, mark entries `(Workbook)`, and ask follow-up questions only where the workbook is missing, vague or contradictory. Phases the workbook does not cover (1, 5, 6, parts of 4 and 7) are run in full. The workbook supplements the interview; it never replaces the user's approval of the brief.
 
 ## Project Environment & Stack
 

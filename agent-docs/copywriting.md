@@ -61,6 +61,8 @@ Skip sections that don't serve the page purpose. Shorter pages are fine.
 
 ## Voice and tone
 
+- **Form of address (German):** use exactly the form recorded in the brief, section 6 (`Anrede auf der Website: Sie/du`). Never mix. If the field is empty, stop and ask before writing.
+
 - **Voice** is consistent brand personality across the site.
 - **Tone** adapts to the moment — confident on the homepage, empathetic on error/recovery pages, direct on pricing.
 - Write like a knowledgeable human, not a press release.

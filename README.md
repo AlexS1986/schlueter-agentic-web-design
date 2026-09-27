@@ -1,6 +1,6 @@
 # Schlueter Agentic Web Design
 
-Agentic Web-Design-Workflow für Kundenprojekte – eine 1:1-Adaption von [gearyco-agentic-web-design](https://github.com/kevingeary/gearyco-agentic-web-design), bei der alles Kundenseitige (Discovery-Interview, Brief, Website-Texte) auf Deutsch läuft. Harness-agnostisch über `AGENTS.md`, plus Glue für Claude Code, Cursor und Copilot.
+Agentic Web-Design-Workflow für Kundenprojekte – eine Adaption von [gearyco-agentic-web-design](https://github.com/kevingeary/gearyco-agentic-web-design), bei der alles Kundenseitige (Discovery-Interview, Brief, Website-Texte) auf Deutsch läuft. Das Interview siezt den Kunden; die Anrede auf der Website wird pro Projekt im Brief festgelegt. Harness-agnostisch über `AGENTS.md`, plus Glue für Claude Code, Cursor und Copilot.
 
 ## Stack
 
@@ -29,6 +29,7 @@ agent-docs/                        # Referenz-Docs je Workflow-Schritt
   discovery.md                     # Geführtes Discovery-Interview (DEUTSCH)
   copywriting.md · design.md · html.md · css.md · acss.md · acss/* · etch.md · etch-css-reset.md
 discovery/brief.md                 # Leerer Discovery-Brief (DEUTSCH) – wird im Interview gefüllt
+discovery/workbook-*.md            # optional: ausgefüllte Offer-Messaging-Workbooks (Input für /discovery)
 ```
 
 ## Projekt starten
@@ -40,6 +41,16 @@ Discovery starten
 ```
 
 (oder `/discovery` in Claude Code). Der Agent führt das 7-Phasen-Interview auf Deutsch (Projekt & Ziel, Unternehmen & Angebot, Zielgruppe, Wettbewerber, Seiten, Marke & Stimme, Beweise & Assets), hakt bei vagen Antworten nach und füllt `discovery/brief.md` laufend aus. Der freigegebene Brief ist die Grundlage für Copywriting, Wireframes und Design.
+
+### Optional: Offer-Messaging-Workbook als Input
+
+Wurde das Offer-Messaging-Workbook bereits im Workshop mit dem Kunden ausgefüllt, legst du es vor dem Start unter `discovery/` ab – eine Datei pro Angebot:
+
+```
+discovery/workbook-yogakurse.md      # oder .txt / .pdf / .docx
+```
+
+`/discovery` läuft dann im **Workbook-Modus**: Der Brief wird aus dem Workbook vorbefüllt (Einträge mit `(Workbook)` markiert), schwache oder fehlende Antworten bekommen `⚠ nachhaken`, und das Interview fragt nur diese Punkte sowie die Phasen ab, die das Workbook nicht abdeckt (Projekt & Ziel, Seiten & Struktur, Marke & Stimme, Wettbewerber-Namen, Assets, Rechtliches, Keywords). Zuordnung Workbook → Brief: siehe `agent-docs/discovery.md`, Abschnitt „Optionaler Input“.
 
 ## Lokal ohne npm nutzen
 

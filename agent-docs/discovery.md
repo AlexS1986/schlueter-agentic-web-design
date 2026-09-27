@@ -2,7 +2,7 @@
 
 Das geführte Discovery-Interview für Schlueter Agentic Web Design Projekte. Dieses Dokument ist ein Skript, das du ausführst – keine Referenz, die du überfliegst. Solange Discovery aktiv ist, folge ihm Schritt für Schritt.
 
-**Sprache:** Das gesamte Interview – jede Frage, jede Rückfrage, jede Zusammenfassung, jeder Eintrag im Brief – wird auf Deutsch geführt. Duze den Kunden, es sei denn, er siezt dich zuerst; dann bleib beim Sie. Dieses Dokument ist die einzige kundenseitige Phase des Workflows; die nachgelagerten Referenz-Docs (Copywriting, Design, Code) bleiben englisch, aber alle Website-Texte, die aus dem Brief entstehen, sind deutsch.
+**Sprache und Anrede:** Das gesamte Interview – jede Frage, jede Rückfrage, jede Zusammenfassung, jeder Eintrag im Brief – wird auf Deutsch geführt. **Sprich den Kunden durchgehend mit „Sie“ an.** Wechsle nur auf „du“, wenn der Nutzer (die Agentur) das ausdrücklich anweist. Die Anrede *auf der späteren Website* ist davon unabhängig – sie ist eine Markenentscheidung und wird in Phase 6 festgelegt. Dieses Dokument ist die einzige kundenseitige Phase des Workflows; die nachgelagerten Referenz-Docs (Copywriting, Design, Code) bleiben englisch, aber alle Website-Texte, die aus dem Brief entstehen, sind deutsch.
 
 ## Wann du es einsetzt
 
@@ -26,11 +26,11 @@ Diese Regeln gelten für jeden einzelnen Austausch. Sie sind wichtiger als die F
 
 1. **Eine Phase nach der anderen, kleine Häppchen.** Stelle 1–3 zusammenhängende Fragen pro Nachricht. Kopiere niemals den ganzen Fragebogen hinein. Lass das Gespräch atmen.
 2. **Warte auf die Antwort.** Stelle keine Frage, um sie dann selbst zu beantworten oder weiterzugehen. Halte an und lass den Nutzer antworten.
-3. **Verweigere Vagheit.** „Professionelle“, „alle, die X brauchen“, „hohe Qualität“, „modern“, „die Besten“ sind keine Antworten. Hake nach: Frag nach einem Namen, einer Zahl, einem Beispiel, einem echten Kunden, einem echten Satz, den ein Kunde gesagt hat.
+3. **Verweigere Vagheit.** „Professionell“, „alle, die X brauchen“, „hohe Qualität“, „modern“, „die Besten“ sind keine Antworten. Hake nach: Frag nach einem Namen, einer Zahl, einem Beispiel, einem echten Kunden, einem echten Satz, den ein Kunde gesagt hat.
 4. **Grabe, bevor du weitergehst.** Wenn eine Antwort einen Faden öffnet (eine überraschende Zahl, eine starke Meinung, ein genannter Wettbewerber), verfolge ihn ein oder zwei Ebenen tiefer, bevor du weitermachst.
 5. **Spiegeln und bestätigen.** Gib regelmäßig in eigenen Worten wieder, was du gehört hast, und frag „Habe ich das richtig verstanden?“, bevor du es im Brief festhältst.
 6. **Ehrlich herausfordern.** Wenn etwas schwach oder riskant ist, benenne es: dünne Beweise, Me-too-Positionierung, eine zu breite Zielgruppe, ein Ziel ohne klares Ergebnis, eine Seite, die dem Ziel nicht dient. Biete eine schärfere Alternative an.
-7. **Passe den Weg an.** Verzweige je nachdem, was du erfährst (siehe Verzweigungen). Überspringe Fragen, die offensichtlich nicht zutreffen. Ergänze Fragen, die das Projekt verlangt.
+7. **Passe den Weg an.** Verzweige je nachdem, was du erfährst (siehe Verzweigungen). Überspringe Fragen, die offensichtlich nicht zutreffen – oder die ein vorliegendes Workbook bereits gut beantwortet (siehe *Optionaler Input*). Ergänze Fragen, die das Projekt verlangt.
 8. **Zeige Fortschritt.** Eröffne jede Phase mit einer Standortangabe, z. B. „Phase 3 von 7: Zielgruppe.“ Beende jede Phase mit einer einzeiligen Zusammenfassung.
 9. **Halte laufend fest.** Schreibe nach jeder Phase die bestätigten Antworten in `discovery/brief.md`, damit die Arbeit einen Sitzungsabbruch überlebt.
 10. **Erfinde niemals Antworten.** Wenn der Nutzer etwas nicht weiß, markiere es im Brief als offene Frage und kennzeichne es als Recherche-Aufgabe. Erfinde keine Marktdaten, Wettbewerber oder Kundenzitate.
@@ -39,13 +39,49 @@ Diese Regeln gelten für jeden einzelnen Austausch. Sie sind wichtiger als die F
 
 1. Bestätige die Absicht und setze Erwartungen: Erkläre, dass dies ein Interview in 7 Phasen ist, dass es als Gespräch läuft und mit einem freigegebenen Brief endet, der den Rest des Projekts steuert.
 2. Öffne `discovery/brief.md` (den Installations-Stub) und setze den Status auf `in Arbeit`. Falls die Datei fehlt, lege sie aus der Vorlage unten an.
-3. Arbeite die Phasen der Reihe nach durch. Schreibe nach jeder Phase in den Brief und gib eine einzeilige Zusammenfassung.
-4. Führe nach Phase 7 die Synthese durch: Präsentiere den vollständigen Brief, deine ehrliche Einschätzung und die offenen Fragen. Hole eine ausdrückliche Freigabe ein.
-5. Nach der Freigabe sagst du dem Nutzer, dass die Discovery abgeschlossen ist und das Projekt bereit für Schritt 2 (Copywriting) ist.
+3. **Prüfe, ob ein Offer-Messaging-Workbook vorliegt** (Dateien `discovery/workbook*.*` – oder frag: „Liegt ein ausgefülltes Offer-Messaging-Workbook vor?“). Wenn ja: Workbook-Modus, siehe nächster Abschnitt. Wenn nein: volles Interview.
+4. Arbeite die Phasen der Reihe nach durch. Schreibe nach jeder Phase in den Brief und gib eine einzeilige Zusammenfassung.
+5. Führe nach Phase 7 die Synthese durch: Präsentiere den vollständigen Brief, deine ehrliche Einschätzung und die offenen Fragen. Hole eine ausdrückliche Freigabe ein.
+6. Nach der Freigabe sagst du dem Nutzer, dass die Discovery abgeschlossen ist und das Projekt bereit für Schritt 2 (Copywriting) ist.
+
+## Optionaler Input: Offer-Messaging-Workbook
+
+Das Offer-Messaging-Workbook ist der Fragebogen, den die Agentur in einem Live-Workshop mit dem Kunden ausfüllt (ein Workbook pro Angebot). Liegt es vor, ist es **Ergänzung und Abkürzung** des Interviews, kein Ersatz: Du lädst es zu Beginn, füllst den Brief damit vor und **hakst nur dort nach, wo das Workbook keine oder keine zufriedenstellende Antwort liefert**. Phasen, die das Workbook nicht abdeckt, führst du vollständig.
+
+### Ablauf im Workbook-Modus
+
+1. **Einlesen.** Lies alle Workbook-Dateien unter `discovery/` (`workbook*.md`, `.txt`, `.pdf`, `.docx`). Mehrere Workbooks = mehrere Angebote: Das Angebot mit dem größten Umsatzanteil (frag, falls unklar) ist das Kernangebot für Phase 2; die anderen werden als weitere Angebote notiert.
+2. **Zuordnen.** Übertrage die Antworten anhand der Tabelle unten in den Brief. Kennzeichne jeden übernommenen Eintrag mit `(Workbook)`.
+3. **Bewerten.** Prüfe jede übernommene Antwort mit denselben Maßstäben wie eine Interview-Antwort (Spielregel 3): generisch, leer, widersprüchlich oder ohne Konkretes → markiere sie mit `⚠ nachhaken`. Marketing-Formulierungen aus dem Workbook-Teil „Pitch / One-Liner“ sind Hypothesen, keine Fakten – sie gehören in die Synthese, nicht in die Phasen 1–7.
+4. **Vorstellen statt abfragen.** Für Phasen, die das Workbook weitgehend abdeckt (2, 3, teilweise 4 und 7): Präsentiere dem Nutzer die vorbefüllte Phase als Zusammenfassung, stelle **nur** die Nachhak-Fragen zu den `⚠`-Einträgen und die Fragen, die das Qualitäts-Gate noch offen lässt. Hole die Bestätigung ein und entferne die Markierungen.
+5. **Vollständig führen.** Phasen ohne Workbook-Abdeckung (1, 5, 6 sowie die nicht abgedeckten Punkte in 4 und 7) führst du wie im normalen Interview – in kleinen Häppchen, mit Nachhaken.
+6. **Widersprüche** zwischen Workbook und Gespräch benennst du offen und lässt den Nutzer entscheiden, welche Fassung gilt. Notiere die Entscheidung im Brief.
+
+### Zuordnung Workbook → Brief
+
+| Workbook-Feld | Brief-Abschnitt / Punkt | Typische Nachhak-Frage, falls schwach |
+|---|---|---|
+| Produkt / Dienstleistung · Preis oder Preisspanne | 2 Angebote (nach Priorität) · Umsatz-/Preismodell | „Steht der Preis öffentlich auf der Website oder wird er auf Anfrage genannt?“ |
+| Zielkunde · Sekundäre Käufer | 3 Hauptzielgruppe · 2 Guter vs. schlechter Lead | „Beschreiben Sie eine konkrete Person, die letzten Monat gekauft hat.“ |
+| Welches Problem löst es / welche Gelegenheit | 3 Kernproblem (in ihren Worten) | „Wie sagt es ein Kunde am Telefon – Wort für Wort?“ |
+| Wie würden Sie es beschreiben · Welche Sprache nutzt der Käufer | 2 Was das Unternehmen macht · 3 Echte Kundensprache | „Aus welcher Bewertung oder E-Mail stammt dieser Satz?“ |
+| Warum sollte sich der Käufer interessieren · Genaues Versprechen | 3 Transformation vorher → nachher | „Woran merkt der Kunde nach vier Wochen, dass das Versprechen eingelöst ist?“ |
+| Beweis, dass es funktioniert · 4 Kennzahlen | 7 Beweis-Inventar | „Welche dieser Zahlen dürfen wir mit Namen veröffentlichen?“ |
+| Drei wichtigste Merkmale · Drei wichtigste Vorteile | 2 Angebote (Details) · Synthese (Argumente) | „Welchen Vorteil würde ein Wettbewerber *nicht* behaupten können?“ |
+| Warum nicht die Konkurrenz · Was der Käufer an Konkurrenz hasst / mag | 4 Differenzierungsmerkmal · 4 Echte Alternative | „Nennen Sie drei Wettbewerber mit Namen und Website.“ (**nicht** im Workbook) |
+| Drei Dinge, die sich der Kunde wünscht | 3 Kernproblem / Transformation | – |
+| Trigger / Ereignisse · Hörensagen | 3 Bewusstseinsstufe · 3 Kundenreise | „In welchem Moment sucht der Kunde – und wonach genau?“ |
+| Was der Käufer glauben muss (über Produkt / Sie / sich selbst) · 3–5 Erkenntnisse | 3 Wichtigster Einwand (Kehrseite) · Synthese (Botschaftshierarchie) | – |
+| Hindernisse beim Kauf · 3 größte Einwände · Antworten darauf | 3 Wichtigster Einwand · 7 Beweis-Inventar (Belege für die Antworten) | „Welcher Einwand kostet die meisten Abschlüsse?“ |
+| Wichtige Kunden, mit denen wir sprechen können | Offene Fragen / Recherche-Aufgaben | – |
+| Was muss noch gesagt werden | 2 oder 7, je nach Inhalt | – |
+| Thema der Erzählung · Pitch · One-Liner | Synthese: Stärkster Winkel · Empfohlene Positionierung & Hauptbotschaft (**als Hypothese**) | „Besteht der One-Liner den Test: Was ist es, für wen, warum wichtig?“ |
+
+**Nicht im Workbook – immer im Interview:** Phase 1 (Projekt & Ziel, Hauptergebnis), Phase 2 *primäre Konversionshandlung* und *nächster Schritt des Kunden*, Phase 4 *namentlich genannte Wettbewerber mit URLs*, Phase 5 (Seiten & Struktur), Phase 6 (Marke, Stimme, Anrede, Referenz-Websites, Assets), Phase 7 *Asset-Inventar*, *rechtliche Einschränkungen*, *Ziel-Keywords*. Liegt zusätzlich der Vorab-Fragebogen der Agentur vor (7 Fragen: Warum jetzt, aktuelle Website, Ziel, Leistungen, Zeitrahmen, Entscheider, Investition), speist er Phase 1 – gleicher Umgang: übernehmen, kennzeichnen, bewerten, bestätigen lassen.
 
 ## Die Phasen
 
-Jede Phase hat ein **Ziel**, einen **Fragenkatalog**, **Nachhaken**-Hinweise und ein **Qualitäts-Gate**. Der Katalog ist Rohmaterial, kein Skript zum Vorlesen. Formuliere die Fragen in deinen eigenen Worten und stelle nur, was das Projekt braucht.
+Jede Phase hat ein **Ziel**, einen **Fragenkatalog**, **Nachhaken**-Hinweise und ein **Qualitäts-Gate**. Der Katalog ist Rohmaterial, kein Skript zum Vorlesen. Formuliere die Fragen in deinen eigenen Worten (in der Sie-Form) und stelle nur, was das Projekt braucht.
 
 ### Phase 1 – Projekt & Ziel
 
@@ -53,10 +89,10 @@ Jede Phase hat ein **Ziel**, einen **Fragenkatalog**, **Nachhaken**-Hinweise und
 
 Fragenkatalog:
 
-- Was müssen Besucher nach dieser Website anders glauben, fühlen oder tun?
+- Was sollen Besucher nach dem Besuch dieser Website anders glauben, fühlen oder tun?
 - Was ist das Projekt in einem Satz? (Neue Website, Redesign, einzelne Landingpage?)
 - Warum jetzt? Was ist passiert, dass das jetzt Priorität hat?
-- Was ist das eine Ding, das diese Website erreichen muss? (Verkaufen, Anfragen generieren, Termine buchen, Glaubwürdigkeit aufbauen?) Woran würdest du erkennen, dass es funktioniert hat?
+- Was ist das eine Ding, das diese Website erreichen muss? (Verkaufen, Anfragen generieren, Termine buchen, Glaubwürdigkeit aufbauen?) Woran würden Sie erkennen, dass es funktioniert hat?
 - Gab es eine frühere Version, die nicht funktioniert hat? Was ist gescheitert?
 
 Nachhaken: Wenn das Ziel vage ist, bohre weiter, bis es ein klares Hauptergebnis gibt (Anfragen, Anrufe, Verkäufe, Anmeldungen, Bewerbungen). Wenn mehrere Beteiligte unterschiedliche Ziele haben, bring das jetzt ans Licht.
@@ -75,12 +111,12 @@ Fragenkatalog:
 
 - Was macht das Unternehmen tatsächlich – in einfachen Worten, wie ein Kunde es sagen würde?
 - Welche Produkte oder Leistungen gibt es, und welche ist für diese Website die wichtigste?
-- Wie verdient ihr Geld? (Einmalig, Retainer, Abo, Transaktion, Werbung?)
+- Wie verdienen Sie Geld? (Einmalig, Retainer, Abo, Transaktion, Werbung?)
 - Was kostet es, und steht der Preis öffentlich oder wird er auf Anfrage genannt?
-- Was ist das eine profitabelste oder strategisch wichtigste Ding, das die Website antreiben soll?
+- Was ist das eine profitabelste oder strategisch wichtigste Angebot, das die Website antreiben soll?
 - Was ist der nächste Schritt des Kunden? (Kaufen, Termin buchen, Formular ausfüllen, anrufen, vorbeikommen?)
 - Was passiert nach der Konversion? (Wie läuft der Verkaufs-/Erfüllungsprozess?)
-- Was willst du NICHT verkaufen oder anziehen?
+- Was wollen Sie NICHT verkaufen oder anziehen?
 
 Nachhaken: Wenn es viele Angebote gibt, erzwinge eine Priorisierung. Wenn der Preis versteckt ist, frag warum und ob das der Konversion hilft oder schadet.
 
@@ -96,9 +132,9 @@ Qualitäts-Gate:
 
 Fragenkatalog:
 
-- Beschreib deinen besten Kunden. Sei konkret: Wer ist das, in welcher Situation steckt er?
+- Beschreiben Sie Ihren besten Kunden. Seien Sie konkret: Wer ist das, in welcher Situation steckt er?
 - Ist das B2B oder B2C? Wer entscheidet über den Kauf?
-- Welches Problem wollen sie lösen, wenn sie dich finden? Was ist der Schmerz in ihren Worten?
+- Welches Problem wollen die Kunden lösen, wenn sie Sie finden? Was ist der Schmerz in ihren Worten?
 - Wo stehen sie im Bewusstsein? (Unbewusst → problembewusst → lösungsbewusst → produktbewusst → voll bewusst.)
 - Was haben sie schon ausprobiert, das nicht funktioniert hat?
 - Was ist der Einwand oder die Angst Nummer 1, die sie vom Kauf abhält?
@@ -120,13 +156,13 @@ Qualitäts-Gate:
 
 Fragenkatalog:
 
-- Wer sind deine Top-3-Wettbewerber? (Namen und URLs.)
+- Wer sind Ihre drei wichtigsten Wettbewerber? (Namen und Websites.)
 - Was machen die gut? Was machen die schlecht?
-- Mit wem vergleichen dich Käufer üblicherweise, auch wenn du sie nicht als Wettbewerber siehst?
-- Was ist das eine Ding, das du besser oder anders machst? Warum sollte jemand dich wählen?
+- Mit wem vergleichen Käufer Sie üblicherweise, auch wenn Sie diese nicht als Wettbewerber sehen?
+- Was ist das eine Ding, das Sie besser oder anders machen? Warum sollte jemand Sie wählen?
 - Was ist die „Nichts tun / selber machen“-Alternative, die der Käufer stattdessen wählen könnte?
 - Welche Kategoriebegriffe benutzt der Markt? Gibt es Wörter, die vermieden werden sollen?
-- Gibt es Wettbewerber-Websites, die du bewunderst oder schlagen willst?
+- Gibt es Wettbewerber-Websites, die Sie bewundern oder schlagen wollen?
 
 Nachhaken: Setze das Differenzierungsmerkmal unter Druck. „Wir kümmern uns mehr“ oder „Qualität und Service“ ist kein Differenzierungsmerkmal. Bohre weiter, bis es etwas ist, das ein Wettbewerber nicht ebenfalls behaupten könnte. Wenn keins zu finden ist, sag das ehrlich und hilf, eine Positionierung zu formen.
 
@@ -159,23 +195,25 @@ Qualitäts-Gate:
 
 ### Phase 6 – Marke & Stimme
 
-**Ziel:** Persönlichkeit, Tonalität und das visuelle Register erfassen, damit Text und Design markenkonform bleiben.
+**Ziel:** Persönlichkeit, Tonalität, Anrede und das visuelle Register erfassen, damit Text und Design markenkonform bleiben.
 
 Fragenkatalog:
 
-- Beschreib die Marke als Person. Wie soll sie sich für Besucher anfühlen?
-- Nenn mir drei konkrete Wörter für die Tonalität. Nicht „modern“ oder „professionell“ – echte Persönlichkeitswörter.
+- Beschreiben Sie die Marke als Person. Wie soll sie sich für Besucher anfühlen?
+- Nennen Sie mir drei konkrete Wörter für die Tonalität. Nicht „modern“ oder „professionell“ – echte Persönlichkeitswörter.
 - Förmlich oder locker? Verspielt oder ernst? Mutig oder zurückhaltend?
+- **Anrede auf der Website: „Sie“ oder „du“?** Wie sprechen Sie Ihre Kunden heute an – am Telefon, in E-Mails, in Bewertungsantworten? Die Website sollte dazu passen.
 - Gibt es bereits einen Styleguide, Logo, Schriften oder Farben? (Hol dir die Dateien.)
-- Zeig mir eine Website, deren Wirkung du liebst, und eine, die du hasst. Warum?
+- Zeigen Sie mir eine Website, deren Wirkung Sie lieben, und eine, die Sie nicht mögen. Warum?
 - Ist das eine Marken-Oberfläche (Marketing, haltungsgetrieben) oder eine Produkt-Oberfläche (aufgabengetrieben)? (Siehe Register in design.md.)
-- Gibt es Tabus – Wörter, Behauptungen, Bildwelten, Wettbewerber, denen ihr nicht ähneln dürft?
+- Gibt es Tabus – Wörter, Behauptungen, Bildwelten, Wettbewerber, denen Sie nicht ähneln dürfen?
 
-Nachhaken: Lehne Reflexantworten ab. Wenn sie „clean und modern“ sagen, frag, was das konkret für sie heißt, und hol dir Beispiele. Verknüpfe die Tonalitätswörter mit der Zielgruppe aus Phase 3.
+Nachhaken: Lehne Reflexantworten ab. Wenn sie „clean und modern“ sagen, frag, was das konkret für sie heißt, und hol dir Beispiele. Verknüpfe die Tonalitätswörter mit der Zielgruppe aus Phase 3. Bei der Anrede: Wenn der Kunde unsicher ist, empfiehl die Form, die seine Zielgruppe in Bewertungen und Nachrichten selbst verwendet.
 
 Qualitäts-Gate:
 
 - [ ] Drei konkrete Tonalitätswörter.
+- [ ] Anrede auf der Website entschieden (Sie/du) – sie gilt für alle Website-Texte.
 - [ ] Register entschieden (Marke vs. Produkt).
 - [ ] Vorhandene Markenassets gesammelt oder bestätigt, dass keine existieren.
 - [ ] Mindestens eine Referenz-Website, die gefällt, und eine, die nicht gefällt – mit Begründung.
@@ -186,10 +224,10 @@ Qualitäts-Gate:
 
 Fragenkatalog:
 
-- Welche Beweise hast du? (Testimonials, Bewertungen, Fallstudien, Kennzahlen, Logos, Zertifizierungen, Presse.)
-- Kannst du benannte Ergebnisse teilen? Echte Zahlen und benannte Kunden schlagen anonymes Lob.
+- Welche Beweise haben Sie? (Testimonials, Bewertungen, Fallstudien, Kennzahlen, Logos, Zertifizierungen, Presse.)
+- Können Sie benannte Ergebnisse teilen? Echte Zahlen und benannte Kunden schlagen anonymes Lob.
 - Welche Fotos, Videos oder Grafiken existieren? Was fehlt?
-- Gibt es Aussagen, die ihr rechtlich nicht treffen dürft, oder Wörter/Bilder, die vermieden werden müssen? (Z. B. Heilversprechen, Berufsrecht, UWG.)
+- Gibt es Aussagen, die Sie rechtlich nicht treffen dürfen, oder Wörter/Bilder, die vermieden werden müssen? (Z. B. Heilversprechen, Berufsrecht, UWG.)
 - SEO: Bekannte Ziel-Keywords oder Themen, die der Text ansprechen soll?
 
 Nachhaken: Beweise sind die Stelle, an der die meisten Projekte schwach sind. Wenn die Beweise dünn sind, sag das direkt und mache das Sammeln zur Aufgabe vor dem Copywriting. Stelle sicher, dass genug echte Assets zum Gestalten vorhanden sind; kennzeichne Lücken als Produktionsaufgaben.
@@ -210,6 +248,7 @@ Passe das Interview an das Projekt an:
 - **Personenmarke / Portfolio** → Stimme, Haltung und das Werk führen; der Beweis ist die Arbeit selbst.
 - **B2B** → mehrere Beteiligte, längerer Zyklus, Vergleichs- und ROI-Inhalte; erfasse das Entscheidungsgremium.
 - **B2C** → Emotion, Transformation und schnelle Wirkung; reduziere die Reibung bis zur Handlung.
+- **Workbook liegt vor** → Workbook-Modus (siehe oben): vorbefüllen, bewerten, nur Lücken und Schwachstellen abfragen.
 
 ## Synthese & Brief
 
@@ -218,9 +257,9 @@ Nach Phase 7:
 1. Präsentiere die vollständige `discovery/brief.md`.
 2. Gib deine ehrliche Einschätzung als Marketer/Verkäufer: der stärkste Winkel, das größte Risiko und das eine Ding, das den Erfolg am meisten bestimmen wird.
 3. Liste offene Fragen und Recherche-Aufgaben auf (alles, was als unbekannt markiert ist).
-4. Empfiehl den Positionierungswinkel und die Hauptbotschaft, mit der die Website führen sollte.
+4. Empfiehl den Positionierungswinkel und die Hauptbotschaft, mit der die Website führen sollte. Liegt ein Workbook mit Pitch/One-Liner vor, prüfe ihn gegen den Brief und übernimm, schärfe oder verwirf ihn ausdrücklich.
 5. Hole eine ausdrückliche Freigabe ein. Überarbeite, bis freigegeben.
-6. Nach der Freigabe erklärst du die Discovery für abgeschlossen und das Projekt für bereit für Schritt 2 (Copywriting), der [copywriting.md](copywriting.md) laden soll. Weise darauf hin, dass alle Website-Texte auf Deutsch geschrieben werden.
+6. Nach der Freigabe erklärst du die Discovery für abgeschlossen und das Projekt für bereit für Schritt 2 (Copywriting), der [copywriting.md](copywriting.md) laden soll. Weise darauf hin, dass alle Website-Texte auf Deutsch und in der in Phase 6 festgelegten Anrede geschrieben werden.
 
 ## Brief-Vorlage
 
@@ -230,6 +269,7 @@ Nach Phase 7:
 # Discovery-Brief – [Projektname]
 
 _Status: nicht begonnen | in Arbeit | abgeschlossen · Zuletzt aktualisiert: [Datum]_
+_Quellen: Interview [Datum] · Offer-Messaging-Workbook [Datum, Angebot] · Vorab-Fragebogen [Datum]_
 
 ## 1. Projekt & Ziel
 - Markeninhaber / Freigabe für Stimme & Design:
@@ -269,6 +309,7 @@ _Status: nicht begonnen | in Arbeit | abgeschlossen · Zuletzt aktualisiert: [Da
 ## 6. Marke & Stimme
 - Markenpersönlichkeit / Gefühl:
 - Drei Tonalitätswörter:
+- Anrede auf der Website (Sie/du):
 - Register (Marke vs. Produkt):
 - Vorhandene Assets:
 - Referenz-Websites (gefällt / gefällt nicht + warum):
@@ -295,10 +336,11 @@ Die Discovery ist erst abgeschlossen, wenn:
 - [ ] Alle 7 Phasen-Gates bestanden sind (oder Lücken ausdrücklich akzeptiert und notiert wurden).
 - [ ] `discovery/brief.md` ausgefüllt und als abgeschlossen markiert ist.
 - [ ] Hauptzielgruppe, Differenzierungsmerkmal und Hauptergebnis eindeutig sind.
+- [ ] Kein Eintrag mehr mit `⚠ nachhaken` markiert ist; `(Workbook)`-Einträge sind vom Nutzer bestätigt.
 - [ ] Beweis- und Asset-Lücken als Aufgaben erfasst sind.
 - [ ] Der Nutzer den Brief ausdrücklich freigegeben hat.
 
 ## Verwandte Docs
 
-- [copywriting.md](copywriting.md) – der nächste Schritt; verarbeitet diesen Brief (Zweck, Zielgruppe, Einwand, Beweise, Stimme). Alle Website-Texte auf Deutsch.
+- [copywriting.md](copywriting.md) – der nächste Schritt; verarbeitet diesen Brief (Zweck, Zielgruppe, Einwand, Beweise, Stimme, Anrede). Alle Website-Texte auf Deutsch.
 - [design.md](design.md) – Register (Marke vs. Produkt) und Stimme speisen Wireframing und UI-Design.

@@ -1,10 +1,13 @@
 # Discovery-Brief – [Projektname]
 
 _Status: nicht begonnen · Zuletzt aktualisiert: [Datum]_
+_Quellen: Interview [Datum] · Offer-Messaging-Workbook [Datum, Angebot] · Vorab-Fragebogen [Datum]_
 
 > Diese Datei ist die einzige Quelle der Wahrheit für das Projekt. Sie wird im
 > geführten Discovery-Interview ausgefüllt (siehe agent-docs/discovery.md).
 > Sag `Discovery starten` oder `/discovery` in deinem KI-Tool, um zu beginnen.
+> Liegt ein ausgefülltes Offer-Messaging-Workbook vor, lege es als `discovery/workbook-<angebot>.md` (oder .pdf/.docx)
+> ab – das Interview füllt den Brief daraus vor und fragt nur die Lücken ab.
 > Kein Copywriting und kein Design, bevor dieser Brief vollständig und freigegeben ist.
 
 ## 1. Projekt & Ziel
@@ -45,6 +48,7 @@ _Status: nicht begonnen · Zuletzt aktualisiert: [Datum]_
 ## 6. Marke & Stimme
 - Markenpersönlichkeit / Gefühl:
 - Drei Tonalitätswörter:
+- Anrede auf der Website (Sie/du):
 - Register (Marke vs. Produkt):
 - Vorhandene Assets:
 - Referenz-Websites (gefällt / gefällt nicht + warum):

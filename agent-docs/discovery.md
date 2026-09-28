@@ -77,7 +77,7 @@ Das Offer-Messaging-Workbook ist der Fragebogen, den die Agentur in einem Live-W
 | Was muss noch gesagt werden | 2 oder 7, je nach Inhalt | – |
 | Thema der Erzählung · Pitch · One-Liner | Synthese: Stärkster Winkel · Empfohlene Positionierung & Hauptbotschaft (**als Hypothese**) | „Besteht der One-Liner den Test: Was ist es, für wen, warum wichtig?“ |
 
-**Nicht im Workbook – immer im Interview:** Phase 1 (Projekt & Ziel, Hauptergebnis), Phase 2 *primäre Konversionshandlung* und *nächster Schritt des Kunden*, Phase 4 *namentlich genannte Wettbewerber mit URLs*, Phase 5 (Seiten & Struktur), Phase 6 (Marke, Stimme, Anrede, Referenz-Websites, Assets), Phase 7 *Asset-Inventar*, *rechtliche Einschränkungen*, *Ziel-Keywords*. Liegt zusätzlich der Vorab-Fragebogen der Agentur vor (7 Fragen: Warum jetzt, aktuelle Website, Ziel, Leistungen, Zeitrahmen, Entscheider, Investition), speist er Phase 1 – gleicher Umgang: übernehmen, kennzeichnen, bewerten, bestätigen lassen.
+**Nicht im Workbook – immer im Interview:** Phase 1 (Projekt & Ziel, Hauptergebnis), Phase 2 *primäre Konversionshandlung* und *nächster Schritt des Kunden*, Phase 4 *namentlich genannte Wettbewerber mit URLs*, Phase 5 (Seiten & Struktur), Phase 6 (Marke, Stimme, Anrede, Referenz-Websites, Assets), Phase 7 *Asset-Inventar*, *rechtliche Einschränkungen*, *Ziel-Keywords* sowie – bei Praxen und Heilberufen – der komplette *Zusatzblock Praxis & Heilberuf*. Liegt zusätzlich der Vorab-Fragebogen der Agentur vor (7 Fragen: Warum jetzt, aktuelle Website, Ziel, Leistungen, Zeitrahmen, Entscheider, Investition), speist er Phase 1 – gleicher Umgang: übernehmen, kennzeichnen, bewerten, bestätigen lassen.
 
 ## Die Phasen
 
@@ -249,6 +249,46 @@ Passe das Interview an das Projekt an:
 - **B2B** → mehrere Beteiligte, längerer Zyklus, Vergleichs- und ROI-Inhalte; erfasse das Entscheidungsgremium.
 - **B2C** → Emotion, Transformation und schnelle Wirkung; reduziere die Reibung bis zur Handlung.
 - **Workbook liegt vor** → Workbook-Modus (siehe oben): vorbefüllen, bewerten, nur Lücken und Schwachstellen abfragen.
+- **Praxis / Heilberuf** (Heilpraktiker:in, Heilpraktiker:in für Psychotherapie, Physio-, Ergo-, Logopädie, Ärzt:in, psychologische Beratung, Coaching mit Gesundheitsbezug) → zusätzlich den [Zusatzblock Praxis & Heilberuf](#zusatzblock-praxis--heilberuf) abfragen. Diese Fakten braucht die Website, sie stehen in keinem Workbook und in keiner der Phasen 1–7.
+
+## Zusatzblock: Praxis & Heilberuf
+
+**Wann:** Immer, wenn die Verzweigung *Praxis / Heilberuf* greift. Führe den Block **nach Phase 2** (er ergänzt das Angebot) und vor Phase 3. Er läuft auch im Workbook-Modus vollständig, weil das Workbook diese Punkte nicht abfragt. Kündige ihn an: „Zusatzblock: Praxisdaten – ein paar Fakten, die Ihre Website zwingend braucht.“
+
+**Ziel:** Die sachlichen Praxisdaten und den rechtlichen Rahmen erfassen, ohne die Leistungsseiten, FAQ, Kontakt und Impressum nicht geschrieben werden können. Anders als in Phase 1 fragst du hier ausdrücklich nach **Kapazität** – sie bestimmt, wie stark die Website überhaupt Anfragen erzeugen soll.
+
+Fragenkatalog (in kleinen Häppchen, 1–3 Fragen pro Nachricht):
+
+- **Berufsbezeichnung & Abgrenzung:** Wie lautet Ihre Berufsbezeichnung wörtlich (z. B. „Heilpraktikerin für Psychotherapie“)? Arbeiten Sie eher beratend oder therapeutisch – oder beides, und wie grenzen Sie das ab? Gibt es Abschlüsse, Zulassungen oder Mitgliedschaften, die genannt werden sollen?
+- **Methoden:** Mit welchen Verfahren oder Methoden arbeiten Sie? Welche davon sollen Besucher kennen – und welche sind eher Hintergrund?
+- **Schwerpunkte:** Für welche 2–3 Anliegen möchten Sie bekannt werden? Gibt es Anliegen, die Sie bewusst *nicht* begleiten (und an wen verweisen Sie dann)?
+- **Setting:** Einzel-, Paar- oder Gruppensitzungen? In der Praxis, online, telefonisch, draußen?
+- **Ablauf:** Wie läuft der erste Kontakt ab – kostenloses Vorgespräch, Erstgespräch, Anamnese? Wie lange dauert eine Sitzung, wie viele Sitzungen sind üblich?
+- **Kosten & Abrechnung:** Was kostet eine Sitzung? Selbstzahler, private Krankenversicherung, Zusatzversicherung, Beihilfe? Sollen Preise auf der Website stehen? Gibt es eine Ausfallregelung?
+- **Kapazität:** Wie viele neue Klient:innen können Sie pro Monat aufnehmen? Gibt es Wartezeiten oder Zeiten, in denen Sie keine neuen Anfragen wollen (Saison, Urlaub)?
+- **Standort & Erreichbarkeit:** Adresse, eigene Praxis oder Praxisgemeinschaft? Parken, ÖPNV, Barrierefreiheit (Stufen, Aufzug)? Sprechzeiten bzw. Zeiten für Anfragen?
+- **Kontakt & Terminbuchung:** Wie sollen Interessierte Kontakt aufnehmen – Telefon, Formular, E-Mail, Online-Buchung (z. B. Doctolib)? Was davon ist der bevorzugte Weg?
+- **Pflichtangaben:** Zuständige Aufsichtsbehörde (z. B. Gesundheitsamt), Staat, in dem die Berufsbezeichnung verliehen wurde, ggf. Kammer oder Berufsverband – für das Impressum.
+
+Nachhaken:
+
+- **Berufsbezeichnung wörtlich übernehmen, nie umformulieren.** Geschützte Titel (z. B. „Psychotherapeutin“ ohne Approbation) dürfen nicht entstehen – auch nicht in Überschriften oder Meta-Titeln. Im Zweifel als offene Frage „rechtlich prüfen“ markieren.
+- **Keine Heil- oder Erfolgsversprechen** (Heilmittelwerbegesetz) – notiere Formulierungen der Kundin, die so klingen, als Einschränkung in Abschnitt 7.
+- **Keine Gesundheitsdaten über die Website:** Kontaktformulare fragen nur Name, Kontakt und Terminwunsch ab, keine Beschwerden oder Diagnosen. Notiere das als Einschränkung.
+- Wenn Kapazität klein ist („zwei neue Klient:innen im Monat“), sag offen, was das für das Ziel der Website heißt: Qualität der Anfragen vor Menge.
+
+Qualitäts-Gate:
+
+- [ ] Berufsbezeichnung wörtlich erfasst, Beratung/Therapie-Abgrenzung geklärt oder als offene Frage markiert.
+- [ ] Setting, Ablauf, Sitzungsdauer, Preis/Abrechnung erfasst (oder bewusst „nicht auf der Website“).
+- [ ] Kapazität und bevorzugter Kontaktweg bekannt.
+- [ ] Standort/Erreichbarkeit und Pflichtangaben fürs Impressum erfasst oder als Aufgabe markiert.
+
+Trage die Antworten in den Brief ein: Abschnitt 2 → *Praxisdaten*, Abschnitt 7 → *Einschränkungen für die Botschaft* und *Pflichtangaben*.
+
+## Nicht Teil der Discovery: Organisation
+
+Zeitplan, Review-Termine, Abwesenheiten, Kommunikationskanäle, Zugänge (Domain, Hosting, Google-Unternehmensprofil, Buchungstool), Abrechnung und Freigabewege klärt die Agentur im **Kickoff** (Agentur-Prozess WD 04, Kickoff-Leitfaden). Frag in der Discovery nicht danach. Erwähnt der Nutzer so etwas, notiere es knapp unter *Offene Fragen* mit dem Präfix `(Orga)` und führe das Interview weiter.
 
 ## Synthese & Brief
 
@@ -284,6 +324,15 @@ _Quellen: Interview [Datum] · Offer-Messaging-Workbook [Datum, Angebot] · Vora
 - Umsatz-/Preismodell:
 - Primäre Konversionshandlung:
 - Guter vs. schlechter Lead:
+- Praxisdaten (nur Praxis/Heilberuf – Zusatzblock):
+  - Berufsbezeichnung (wörtlich) & Abgrenzung Beratung/Therapie:
+  - Methoden · Schwerpunkte · nicht begleitete Anliegen:
+  - Setting (Einzel/Paar/Gruppe · Praxis/online):
+  - Ablauf Erstkontakt · Sitzungsdauer:
+  - Preis & Abrechnung (Selbstzahler/PKV/Beihilfe) · Ausfallregelung:
+  - Kapazität (neue Klient:innen pro Monat, Wartezeit):
+  - Standort & Erreichbarkeit (ÖPNV, Parken, Barrierefreiheit):
+  - Bevorzugter Kontaktweg / Terminbuchung:
 
 ## 3. Zielgruppe & Kunde
 - Hauptzielgruppe:
@@ -318,6 +367,7 @@ _Quellen: Interview [Datum] · Offer-Messaging-Workbook [Datum, Angebot] · Vora
 - Beweis-Inventar:
 - Asset-Inventar:
 - Einschränkungen für die Botschaft (rechtliche Aussagen, verbotene Wörter):
+- Pflichtangaben (Impressum, Berufsrecht):
 - Ziel-Keywords / Themen:
 
 ## Synthese

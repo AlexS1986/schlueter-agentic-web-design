@@ -23,6 +23,15 @@ _Quellen: Interview [Datum] · Offer-Messaging-Workbook [Datum, Angebot] · Vora
 - Umsatz-/Preismodell:
 - Primäre Konversionshandlung:
 - Guter vs. schlechter Lead:
+- Praxisdaten (nur Praxis/Heilberuf – Zusatzblock):
+  - Berufsbezeichnung (wörtlich) & Abgrenzung Beratung/Therapie:
+  - Methoden · Schwerpunkte · nicht begleitete Anliegen:
+  - Setting (Einzel/Paar/Gruppe · Praxis/online):
+  - Ablauf Erstkontakt · Sitzungsdauer:
+  - Preis & Abrechnung (Selbstzahler/PKV/Beihilfe) · Ausfallregelung:
+  - Kapazität (neue Klient:innen pro Monat, Wartezeit):
+  - Standort & Erreichbarkeit (ÖPNV, Parken, Barrierefreiheit):
+  - Bevorzugter Kontaktweg / Terminbuchung:
 
 ## 3. Zielgruppe & Kunde
 - Hauptzielgruppe:
@@ -57,6 +66,7 @@ _Quellen: Interview [Datum] · Offer-Messaging-Workbook [Datum, Angebot] · Vora
 - Beweis-Inventar:
 - Asset-Inventar:
 - Einschränkungen für die Botschaft (rechtliche Aussagen, verbotene Wörter):
+- Pflichtangaben (Impressum, Berufsrecht):
 - Ziel-Keywords / Themen:
 
 ## Synthese

@@ -35,6 +35,8 @@ Do not skip ahead to copywriting, wireframing, or design until the discovery bri
 
 **Optional input: Offer-Messaging-Workbook.** If the agency has already run the Offer Messaging workshop with the client, the filled workbook is placed under `discovery/` (`workbook*.md|txt|pdf|docx`, one per offer). The interview then runs in *workbook mode* (see `agent-docs/discovery.md`, section "Optionaler Input"): pre-fill the brief from the workbook, mark entries `(Workbook)`, and ask follow-up questions only where the workbook is missing, vague or contradictory. Phases the workbook does not cover (1, 5, 6, parts of 4 and 7) are run in full. The workbook supplements the interview; it never replaces the user's approval of the brief.
 
+**Branch: practices / health professions.** For Heilpraktiker, psychotherapy practices, physio, doctors etc. the interview adds the *Zusatzblock Praxis & Heilberuf* after phase 2 (professional title verbatim, methods, setting, session length, fees/billing, capacity, location, booking, legal disclosures). Organisational topics (schedule, channels, access, billing) are **not** part of discovery – they belong to the agency kickoff; note them as `(Orga)` open questions.
+
 ## Project Environment & Stack
 
 - **Paper or Figma** - Wireframing & Design

@@ -78,6 +78,26 @@ Das Offer-Messaging-Workbook ist der Fragebogen, den die Agentur in einem Live-W
 | Was muss noch gesagt werden | 2 oder 7, je nach Inhalt | – |
 | Thema der Erzählung · Pitch · One-Liner | Synthese: Stärkster Winkel · Empfohlene Positionierung & Hauptbotschaft (**als Hypothese**) | „Besteht der One-Liner den Test: Was ist es, für wen, warum wichtig?“ |
 
+### Workbook bei Praxis / Heilberuf
+
+Das Workbook ist für Produkte und Dienstleistungen geschrieben („Käufer“, „Konkurrenz“, Vorher/Nachher). Greift die Verzweigung *Praxis / Heilberuf*, stellst du die Workbook-Fragen **in Praxis-Fassung** und hältst diese Grenzen ein:
+
+- **Muster statt Einzelfälle:** Frag nach typischen Menschen, Anliegen und Formulierungen, nie nach einzelnen Klient:innen. Keine Namen, keine Gesundheitsdaten – auch nicht in der Mitschrift.
+- **Versprechen = Rahmen, nicht Wirkung:** „Was dürfen Klient:innen von der Zusammenarbeit erwarten?“ (Zeit, Haltung, Vertraulichkeit, Ablauf) statt eines Ergebnisses. Keine Heil- oder Erfolgsversprechen (HWG).
+- **Beweis = Qualifikation:** Ausbildung, Weiterbildungen, Erfahrung, Verband, Supervision. Testimonials, Dankschreiben, Vorher/Nachher und Erfolgsquoten nicht sammeln, sondern als `rechtlich prüfen` notieren (HWG § 11, Schweigepflicht).
+- **Konkurrenz = andere Anlaufstellen:** Psychotherapie mit Kassenzulassung, Coaching, Beratungsstelle, Hausarzt, nichts tun. Frag, wann die Praxis die passendere Anlaufstelle ist – und wann nicht. Keine Herabsetzung anderer (UWG, Kollegialität).
+
+Diese Felder ersetzt du:
+
+| Workbook-Feld | Stattdessen fragen |
+|---|---|
+| 3 schlechte Szenarien, wenn man es nicht nutzt | „Was hält Menschen davon ab, sich früher Unterstützung zu holen?“ (keine Angstwerbung) |
+| 4 Kennzahlen | „Welche Zahlen über die Praxis dürfen genannt werden (Jahre Erfahrung, Ausbildungsstunden)?“ (keine Erfolgs- oder Heilungsquoten, keine Klient:innen-Umfragen) |
+| Kunden, mit denen wir sprechen können | „Gibt es Kolleg:innen oder Zuweiser, die wir fragen dürfen?“ (keine Klient:innen kontaktieren) |
+| Was der Käufer an der Konkurrenz hasst / mag | „Was hören Sie allgemein über bisherige Erfahrungen bei der Suche nach Hilfe?“ (keine Namen, keine abwertenden Vergleiche) |
+
+Gibt der Kickoff-Leitfaden eine eigene Praxis-Fassung vor (Teil C), gilt die.
+
 **Nicht im Workbook – immer im Interview:** Phase 1 (Projekt & Ziel, Hauptergebnis), Phase 2 *primäre Konversionshandlung* und *nächster Schritt des Kunden*, Phase 4 *namentlich genannte Wettbewerber mit URLs*, Phase 5 (Seiten & Struktur), Phase 6 (Marke, Stimme, Anrede, Referenz-Websites, Assets), Phase 7 *Asset-Inventar*, *rechtliche Einschränkungen*, *Ziel-Keywords* sowie – bei Praxen und Heilberufen – der komplette *Zusatzblock Praxis & Heilberuf*. Liegt zusätzlich der Vorab-Fragebogen der Agentur vor (7 Fragen: Warum jetzt, aktuelle Website, Ziel, Leistungen, Zeitrahmen, Entscheider, Investition), speist er Phase 1 – gleicher Umgang: übernehmen, kennzeichnen, bewerten, bestätigen lassen.
 
 ## Live-Modus: Interview im Kundengespräch
@@ -95,14 +115,22 @@ Das Offer-Messaging-Workbook ist der Fragebogen, den die Agentur in einem Live-W
 5. **Zeit führen.** Nennt die Agentur eine Agenda mit Zeiten, richte das Interview danach aus. Priorisiere `!`-Punkte (siehe unten) und verschiebe `~`-Punkte auf später oder in die Mail. Zeig am Anfang jeder Nachricht in einer kurzen Zeile, wo ihr steht, z. B. `Phase 3/7 · Zielgruppe · 14:52 (Soll bis 15:10)`.
 6. **Warnen.** Geschützte oder falsche Berufsbezeichnungen, Heil- oder Erfolgsversprechen und Widersprüche zu früheren Antworten, zum Workbook oder zum Angebot meldest du sofort in einer Zeile. Die Frage dazu formulierst du so, dass die Agentur sie stellen kann.
 
+**Arbeitsweise im Call** (in der Vorbereitung klären):
+
+- **Weitergeben** (Standard): Die Agentur stellt deine Fragen in eigenen Worten und tippt die Antworten zurück.
+- **Gemeinsam** (`/discovery live gemeinsam`): Du stellst die Fragen, die Agentur liest sie wörtlich vor, Kunde und Agentur überlegen gemeinsam, die Agentur tippt die Stichworte, du dokumentierst. Formuliere die Fragen dann so, dass sie ohne Umformulierung vorgelesen werden können.
+- **Fenster geteilt:** Teilt die Agentur dein Fenster im Call, liest der Kunde mit. Dann schreibst du jede Nachricht kundentauglich: keine internen Hinweise (Konditionen, Vertrag, Tracker, Einschätzungen zum Kunden, Empfehlungsgeber), Warnungen neutral als Frage formuliert. Interne Notizen gehen nur in die Mitschrift unter `Intern`.
+
 **Organisation im Live-Modus:** Gibt die Agentur einen Kickoff-Leitfaden oder eine Agenda mit Orga-Block mit, führst du **zuerst den Orga-Block** mit den Fragen aus Teil A des Leitfadens. Dann folgt der Zusatzblock (bei Praxen), dann das Interview. Orga-Antworten kommen in den Abschnitt `Orga (für die Projektnotiz)` der Mitschrift, **nicht** in den Brief.
+
+**Individuelle Fragen (Leitfaden Teil E):** Der Kickoff-Leitfaden hat einen Teil *E Projektspezifische Fragen* für alles, was nur dieses Projekt betrifft und weder im Standard-Leitfaden noch in den Phasen steht. Übernimm diese Punkte in die Themenliste und frag sie in dem Block, dem sie zugeordnet sind. Weitere Fragen kann die Agentur jederzeit mit `+ …` ergänzen.
 
 **Vorbereitung (wenn der Nutzer den Modus startet, vor dem Call):**
 
 1. Lies `discovery/brief.md`, `discovery/kickoff-notizen.md`, vorhandene Workbooks und die Unterlagen, die der Nutzer nennt (Leitfaden, frühere Gesprächsnotizen).
 2. Liegt ein Workbook vor: Workbook-Modus-Schritte 1–3. Die `⚠ nachhaken`-Punkte fragst du im Call gezielt ab. Liegt keins vor oder ist es leer: Die Phasen 2–4 decken die Workbook-Inhalte ab.
-3. Lege `discovery/mitschrift-JJJJ-MM-TT.md` an mit **Themenliste** (alle offenen Punkte aus Orga, Zusatzblock und den Qualitäts-Gates, markiert mit `!` = heute klären, `~` = kann nachgeholt werden, `✓` = schon bekannt), **Orga (für die Projektnotiz)** und **Mitschrift**.
-4. Zeig dem Nutzer den Ablaufplan: welche Blöcke in welcher Reihenfolge, grob getaktet auf die Agenda. Dazu die 3 heikelsten Themen mit je einem Satz, wie man sie anspricht. Dann warte auf „Start“.
+3. Lege `discovery/mitschrift-JJJJ-MM-TT.md` an mit **Themenliste** (alle offenen Punkte aus Orga, Leitfaden Teil E, Zusatzblock und den Qualitäts-Gates, markiert mit `!` = heute klären, `~` = kann nachgeholt werden, `✓` = schon bekannt), **Orga (für die Projektnotiz)** und **Mitschrift**.
+4. Zeig dem Nutzer den Ablaufplan: welche Blöcke in welcher Reihenfolge, grob getaktet auf die Agenda. Dazu die 3 heikelsten Themen mit je einem Satz, wie man sie anspricht. Kläre die Arbeitsweise (weitergeben oder gemeinsam, Fenster geteilt ja/nein). Dann warte auf „Start“.
 
 **Kurzbefehle während des Calls:**
 
@@ -111,6 +139,7 @@ Das Offer-Messaging-Workbook ist der Fragebogen, den die Agentur in einem Live-W
 - `weiter`: aktuelle Frage überspringen, als offene Frage notieren
 - `später`: Frage ans Ende oder in die Mail schieben
 - `zurück zu …`: zu einer Phase oder einem Thema zurückspringen
+- `+ …`: neue Frage oder neues Thema in die Themenliste aufnehmen (als `!`, wenn nicht anders gesagt) und im passenden Block fragen
 - `D`: Abschluss einleiten (To-dos des Kunden mit Datum, nächster Termin, offene `!`-Punkte). Nennt die Agenda ein Ende, erinnerst du 20 Minuten vorher von selbst daran.
 
 **Nach dem Call** (der Nutzer schreibt „Call beendet“, ggf. mit Transkript oder Nachträgen):

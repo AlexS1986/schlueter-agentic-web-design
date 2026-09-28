@@ -50,7 +50,7 @@ Das Offer-Messaging-Workbook ist der Fragebogen, den die Agentur in einem Live-W
 
 ### Ablauf im Workbook-Modus
 
-1. **Einlesen.** Lies alle Workbook-Dateien unter `discovery/` (`workbook*.md`, `.txt`, `.pdf`, `.docx`). Mehrere Workbooks = mehrere Angebote: Das Angebot mit dem größten Umsatzanteil (frag, falls unklar) ist das Kernangebot für Phase 2; die anderen werden als weitere Angebote notiert.
+1. **Einlesen.** Lies alle Workbook-Dateien unter `discovery/` (`workbook*.md`, `.txt`, `.pdf`, `.docx`). Lies außerdem `discovery/kickoff-notizen.md`, falls vorhanden (Input für den Zusatzblock Praxis & Heilberuf). Mehrere Workbooks = mehrere Angebote: Das Angebot mit dem größten Umsatzanteil (frag, falls unklar) ist das Kernangebot für Phase 2; die anderen werden als weitere Angebote notiert.
 2. **Zuordnen.** Übertrage die Antworten anhand der Tabelle unten in den Brief. Kennzeichne jeden übernommenen Eintrag mit `(Workbook)`.
 3. **Bewerten.** Prüfe jede übernommene Antwort mit denselben Maßstäben wie eine Interview-Antwort (Spielregel 3): generisch, leer, widersprüchlich oder ohne Konkretes → markiere sie mit `⚠ nachhaken`. Marketing-Formulierungen aus dem Workbook-Teil „Pitch / One-Liner“ sind Hypothesen, keine Fakten – sie gehören in die Synthese, nicht in die Phasen 1–7.
 4. **Vorstellen statt abfragen.** Für Phasen, die das Workbook weitgehend abdeckt (2, 3, teilweise 4 und 7): Präsentiere dem Nutzer die vorbefüllte Phase als Zusammenfassung, stelle **nur** die Nachhak-Fragen zu den `⚠`-Einträgen und die Fragen, die das Qualitäts-Gate noch offen lässt. Hole die Bestätigung ein und entferne die Markierungen.
@@ -254,6 +254,8 @@ Passe das Interview an das Projekt an:
 ## Zusatzblock: Praxis & Heilberuf
 
 **Wann:** Immer, wenn die Verzweigung *Praxis / Heilberuf* greift. Führe den Block **nach Phase 2** (er ergänzt das Angebot) und vor Phase 3. Er läuft auch im Workbook-Modus vollständig, weil das Workbook diese Punkte nicht abfragt. Kündige ihn an: „Zusatzblock: Praxisdaten – ein paar Fakten, die Ihre Website zwingend braucht.“
+
+**Vorbefüllen aus dem Kickoff:** Liegt `discovery/kickoff-notizen.md` vor (Notizen der Agentur aus dem Kickoff-Termin), fülle den Block daraus vor, kennzeichne die Einträge mit `(Kickoff)`, stelle sie zur Bestätigung vor und frage nur die Lücken ab – wie im Workbook-Modus.
 
 **Ziel:** Die sachlichen Praxisdaten und den rechtlichen Rahmen erfassen, ohne die Leistungsseiten, FAQ, Kontakt und Impressum nicht geschrieben werden können. Anders als in Phase 1 fragst du hier ausdrücklich nach **Kapazität** – sie bestimmt, wie stark die Website überhaupt Anfragen erzeugen soll.
 

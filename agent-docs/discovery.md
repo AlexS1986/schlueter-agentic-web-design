@@ -255,7 +255,7 @@ Passe das Interview an das Projekt an:
 
 **Wann:** Immer, wenn die Verzweigung *Praxis / Heilberuf* greift. Führe den Block **nach Phase 2** (er ergänzt das Angebot) und vor Phase 3. Er läuft auch im Workbook-Modus vollständig, weil das Workbook diese Punkte nicht abfragt. Kündige ihn an: „Zusatzblock: Praxisdaten – ein paar Fakten, die Ihre Website zwingend braucht.“
 
-**Vorbefüllen aus dem Kickoff:** Liegt `discovery/kickoff-notizen.md` vor (Notizen der Agentur aus dem Kickoff-Termin), fülle den Block daraus vor, kennzeichne die Einträge mit `(Kickoff)`, stelle sie zur Bestätigung vor und frage nur die Lücken ab – wie im Workbook-Modus.
+**Vorbefüllen aus dem Kickoff:** Liegt `discovery/kickoff-notizen.md` ausgefüllt vor (Status nicht `leer`; die Datei wird bei der Installation als leere Vorlage angelegt), fülle den Block daraus vor, kennzeichne die Einträge mit `(Kickoff)`, stelle sie zur Bestätigung vor und frage nur die Lücken ab – wie im Workbook-Modus.
 
 **Ziel:** Die sachlichen Praxisdaten und den rechtlichen Rahmen erfassen, ohne die Leistungsseiten, FAQ, Kontakt und Impressum nicht geschrieben werden können. Anders als in Phase 1 fragst du hier ausdrücklich nach **Kapazität** – sie bestimmt, wie stark die Website überhaupt Anfragen erzeugen soll.
 

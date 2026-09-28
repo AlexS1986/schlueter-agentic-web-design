@@ -12,7 +12,7 @@ Agentic Web-Design-Workflow für Kundenprojekte – eine Adaption von [gearyco-a
 ```bash
 npx schlueter-agentic-web-design              # ins aktuelle Verzeichnis
 npx schlueter-agentic-web-design ./kunde-xy   # in ein Zielverzeichnis – empfohlen: der Kundenordner (Projekte/<Kunde>/), nicht ein Code-Unterordner
-npx schlueter-agentic-web-design --force      # vorhandene Docs überschreiben (brief.md bleibt immer erhalten)
+npx schlueter-agentic-web-design --force      # vorhandene Docs überschreiben (brief.md und kickoff-notizen.md bleiben immer erhalten)
 npx schlueter-agentic-web-design --no-harness # nur AGENTS.md + agent-docs/, keine Harness-Dateien
 ```
 
@@ -29,6 +29,7 @@ agent-docs/                        # Referenz-Docs je Workflow-Schritt
   discovery.md                     # Geführtes Discovery-Interview (DEUTSCH)
   copywriting.md · design.md · html.md · css.md · acss.md · acss/* · etch.md · etch-css-reset.md
 discovery/brief.md                 # Leerer Discovery-Brief (DEUTSCH) – wird im Interview gefüllt
+discovery/kickoff-notizen.md       # Praxisdaten aus dem Agentur-Kickoff – Input für /discovery (wird nie überschrieben)
 discovery/workbook-*.md            # optional: ausgefüllte Offer-Messaging-Workbooks (Input für /discovery)
 ```
 

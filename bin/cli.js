@@ -28,7 +28,7 @@ Usage:
   npx ${pkg.name} [directory] [options]
 
 Options:
-  --force, -f       Overwrite existing AGENTS.md, agent-docs/, .claude/commands/ (CLAUDE.md and discovery/brief.md are always kept)
+  --force, -f       Overwrite existing AGENTS.md, agent-docs/, .claude/commands/ (CLAUDE.md, discovery/brief.md and discovery/kickoff-notizen.md are always kept)
   --no-harness      Only install AGENTS.md + agent-docs/ (skip .claude/commands, Cursor, Copilot glue)
   --help, -h        Show this help message
 
@@ -172,6 +172,14 @@ function main() {
     cpSync(join(packageRoot, "templates", "discovery-brief.md"), briefDest);
   }
 
+  // kickoff-notizen.md collects the practice data from the agency kickoff (input for /discovery).
+  // Created once, never overwritten – same rule as brief.md.
+  const kickoffDest = join(discoveryDir, "kickoff-notizen.md");
+  const kickoffExisted = existsSync(kickoffDest);
+  if (!kickoffExisted) {
+    cpSync(join(packageRoot, "templates", "kickoff-notizen.md"), kickoffDest);
+  }
+
   // CLAUDE.md is the per-project context file (client, links, status). Like brief.md it is
   // created once from the template and never overwritten, not even with --force.
   const claudeDest = join(target, "CLAUDE.md");
@@ -185,6 +193,7 @@ function main() {
     console.log(`  ${w}${w === "agent-docs/" ? ` (${countAgentDocs()} reference docs)` : ""}`);
   }
   console.log(`  discovery/brief.md ${briefExisted ? "(kept)" : "(created)"}`);
+  console.log(`  discovery/kickoff-notizen.md ${kickoffExisted ? "(kept)" : "(created – fill in after the kickoff)"}`);
   console.log(`  CLAUDE.md ${claudeExisted ? "(kept – project context)" : "(created – fill in the project context)"}`);
   console.log("\nYour AI coding tool will pick up CLAUDE.md / AGENTS.md automatically.");
   console.log("Next steps: 1) fill in CLAUDE.md (client, goal, links)  2) say  Discovery starten  (or /discovery in Claude Code)");

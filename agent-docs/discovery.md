@@ -37,7 +37,7 @@ Diese Regeln gelten für jeden einzelnen Austausch. Sie sind wichtiger als die F
 
 ## So läuft eine Sitzung ab
 
-0. **Modus klären.** Sagt der Nutzer „Co-Pilot“, „live“ oder „im Call“ (z. B. `/discovery live`), oder schreibt er, dass er gerade mit dem Kunden spricht: [Co-Pilot-Modus](#co-pilot-modus-live-im-kundengespräch). Sonst: normales Interview.
+0. **Modus klären.** Sagt der Nutzer „live“ oder „im Call“ (z. B. `/discovery live`), oder schreibt er, dass er gleich mit dem Kunden spricht: [Live-Modus](#live-modus-interview-im-kundengespräch). Sonst: normales Interview mit dem Nutzer.
 1. Bestätige die Absicht und setze Erwartungen: Erkläre, dass dies ein Interview in 7 Phasen ist, dass es als Gespräch läuft und mit einem freigegebenen Brief endet, der den Rest des Projekts steuert.
 2. Öffne `discovery/brief.md` (den Installations-Stub) und setze den Status auf `in Arbeit`. Falls die Datei fehlt, lege sie aus der Vorlage unten an.
 3. **Prüfe, ob ein Offer-Messaging-Workbook vorliegt** (Dateien `discovery/workbook*.*` – oder frag: „Liegt ein ausgefülltes Offer-Messaging-Workbook vor?“). Wenn ja: Workbook-Modus, siehe nächster Abschnitt. Wenn nein: volles Interview.
@@ -80,54 +80,46 @@ Das Offer-Messaging-Workbook ist der Fragebogen, den die Agentur in einem Live-W
 
 **Nicht im Workbook – immer im Interview:** Phase 1 (Projekt & Ziel, Hauptergebnis), Phase 2 *primäre Konversionshandlung* und *nächster Schritt des Kunden*, Phase 4 *namentlich genannte Wettbewerber mit URLs*, Phase 5 (Seiten & Struktur), Phase 6 (Marke, Stimme, Anrede, Referenz-Websites, Assets), Phase 7 *Asset-Inventar*, *rechtliche Einschränkungen*, *Ziel-Keywords* sowie – bei Praxen und Heilberufen – der komplette *Zusatzblock Praxis & Heilberuf*. Liegt zusätzlich der Vorab-Fragebogen der Agentur vor (7 Fragen: Warum jetzt, aktuelle Website, Ziel, Leistungen, Zeitrahmen, Entscheider, Investition), speist er Phase 1 – gleicher Umgang: übernehmen, kennzeichnen, bewerten, bestätigen lassen.
 
-## Co-Pilot-Modus: live im Kundengespräch
+## Live-Modus: Interview im Kundengespräch
 
-**Wann:** Die Agentur führt das Gespräch mit dem Kunden selbst (Zoom, vor Ort) und nutzt dich parallel als stillen Co-Pilot und Second Brain. Du stellst dem Kunden keine Fragen. Du sorgst dafür, dass das Gespräch die Struktur dieses Interviews hat, nichts Wichtiges vergessen wird und bei vagen Antworten nachgehakt wird. Start: `/discovery live`, „Discovery starten – Co-Pilot“ oder „Discovery im Call“.
+**Wann:** Die Agentur sitzt mit dem Kunden im Call (Zoom, vor Ort) und hat dich in einem zweiten Fenster offen. **Du führst das Interview wie gewohnt**, mit Phasen, Qualitäts-Gates und Nachhaken. Die Agentur stellt deine Fragen dem Kunden in ihren eigenen Worten und gibt dir die Antworten zurück, oft nur als Stichworte. Start: `/discovery live`, „Discovery live“ oder „Discovery im Call“.
 
-**Was sich gegenüber dem normalen Interview ändert:**
+**Was gleich bleibt:** alle Spielregeln, die Phasen 1–7, der Zusatzblock Praxis & Heilberuf, der Workbook-Modus, die Qualitäts-Gates. Du stellst die Fragen, du wartest auf die Antwort, du hakst nach.
 
-- Spielregeln 1 und 2 (1–3 Fragen stellen, dann warten) gelten **nicht**. Du wartest nicht auf Antworten auf deine eigenen Fragen, sondern reagierst auf das, was der Nutzer aus dem Gespräch weitergibt.
-- Die **Reihenfolge folgt dem Gespräch**, nicht den Phasen. Du ordnest jede Information der richtigen Phase bzw. dem richtigen Brief-Feld zu und behältst alle Qualitäts-Gates gleichzeitig im Blick.
-- Spielregeln 3–6 und 10 gelten **verschärft**: Vagheit, dünne Beweise, Me-too-Positionierung, rechtlich heikle Aussagen und Widersprüche meldest du sofort, als Nachhak-Frage, die der Nutzer stellen kann.
+**Was sich im Live-Modus ändert:**
 
-**Vorbereitung (vor dem Call, wenn der Nutzer den Modus startet):**
+1. **Fragen zum Vorlesen.** Formuliere jede Frage so, dass die Agentur sie dem Kunden direkt stellen kann: Sie-Form, an den Kunden gerichtet, kurz, ohne Fachjargon. Pro Nachricht **eine Hauptfrage**, höchstens eine kurze Zusatzfrage. Setze die Frage fett und in Anführungszeichen, davor höchstens eine Zeile Kontext für die Agentur.
+2. **Stichworte reichen.** Die Antworten kommen verkürzt und aus zweiter Hand. Frag nicht nach ganzen Sätzen. Nur wenn etwas für den Brief zu dünn ist, lieferst du die Nachhak-Frage gleich als nächste Frage zum Vorlesen.
+3. **Spiegeln sparsam.** Keine langen Zusammenfassungen im Call. Spiegle pro Phase **eine** Zeile, die die Agentur dem Kunden zur Bestätigung vorlesen kann.
+4. **Laufend festhalten.** Schreib nach jeder Antwort ins passende Brief-Feld, gekennzeichnet mit `(Live JJJJ-MM-TT)`, und hänge Frage und Antwort-Stichworte an `discovery/mitschrift-JJJJ-MM-TT.md` an. So geht bei einem Abbruch nichts verloren.
+5. **Zeit führen.** Nennt die Agentur eine Agenda mit Zeiten, richte das Interview danach aus. Priorisiere `!`-Punkte (siehe unten) und verschiebe `~`-Punkte auf später oder in die Mail. Zeig am Anfang jeder Nachricht in einer kurzen Zeile, wo ihr steht, z. B. `Phase 3/7 · Zielgruppe · 14:52 (Soll bis 15:10)`.
+6. **Warnen.** Geschützte oder falsche Berufsbezeichnungen, Heil- oder Erfolgsversprechen und Widersprüche zu früheren Antworten, zum Workbook oder zum Angebot meldest du sofort in einer Zeile. Die Frage dazu formulierst du so, dass die Agentur sie stellen kann.
 
-1. Lies `discovery/brief.md`, `discovery/kickoff-notizen.md`, vorhandene Workbooks (`discovery/workbook*.*`) sowie den Kickoff-Leitfaden oder andere Unterlagen, die der Nutzer nennt.
-2. Liegt ein Workbook vor: Workbook-Modus-Schritte 1–3 (einlesen, zuordnen, bewerten). Die `⚠ nachhaken`-Punkte werden Teil der Themenliste.
-3. Lege `discovery/mitschrift-JJJJ-MM-TT.md` an:
-   - **Themenliste:** alle offenen Punkte aus den Qualitäts-Gates der Phasen 1–7, dem Zusatzblock Praxis & Heilberuf (falls die Verzweigung greift) und den `⚠`-Punkten. Jeder Punkt ist mit `!` (muss heute geklärt werden) oder `~` (kann nachgeholt werden) markiert, schon Bekanntes steht als `✓` drin.
-   - **Orga:** Hat die Agentur einen Kickoff-Leitfaden oder eine Agenda genannt, kommen dessen organisatorische Punkte (Zeitplan, Kanäle, Zugänge usw.) in einen eigenen Abschnitt `Orga (für die Projektnotiz)`. Sie landen **nicht** im Brief.
-   - **Mitschrift:** leerer Abschnitt für den Gesprächsverlauf.
-4. Gib dem Nutzer einen Spickzettel (max. 1 Bildschirmseite): die wichtigsten `!`-Punkte in sinnvoller Gesprächsreihenfolge und die 3 heikelsten Themen mit je einem Satz, wie man sie anspricht. Nennt der Nutzer eine Agenda mit Zeiten, ordne die Punkte den Blöcken zu.
+**Organisation im Live-Modus:** Gibt die Agentur einen Kickoff-Leitfaden oder eine Agenda mit Orga-Block mit, führst du **zuerst den Orga-Block** mit den Fragen aus Teil A des Leitfadens. Dann folgt der Zusatzblock (bei Praxen), dann das Interview. Orga-Antworten kommen in den Abschnitt `Orga (für die Projektnotiz)` der Mitschrift, **nicht** in den Brief.
 
-**Während des Calls:** Der Nutzer schreibt kurze Eingaben.
+**Vorbereitung (wenn der Nutzer den Modus startet, vor dem Call):**
 
-- `L: …`: was der Kunde gesagt hat (Stichworte, ggf. mit Uhrzeit)
-- `?`: Was ist noch offen?
-- `Z`: Zeitcheck gegen die Agenda
-- `D`: Wechsel zu den nächsten Schritten / Abschluss
+1. Lies `discovery/brief.md`, `discovery/kickoff-notizen.md`, vorhandene Workbooks und die Unterlagen, die der Nutzer nennt (Leitfaden, frühere Gesprächsnotizen).
+2. Liegt ein Workbook vor: Workbook-Modus-Schritte 1–3. Die `⚠ nachhaken`-Punkte fragst du im Call gezielt ab. Liegt keins vor oder ist es leer: Die Phasen 2–4 decken die Workbook-Inhalte ab.
+3. Lege `discovery/mitschrift-JJJJ-MM-TT.md` an mit **Themenliste** (alle offenen Punkte aus Orga, Zusatzblock und den Qualitäts-Gates, markiert mit `!` = heute klären, `~` = kann nachgeholt werden, `✓` = schon bekannt), **Orga (für die Projektnotiz)** und **Mitschrift**.
+4. Zeig dem Nutzer den Ablaufplan: welche Blöcke in welcher Reihenfolge, grob getaktet auf die Agenda. Dazu die 3 heikelsten Themen mit je einem Satz, wie man sie anspricht. Dann warte auf „Start“.
 
-Nach jeder `L:`-Eingabe:
+**Kurzbefehle während des Calls:**
 
-1. Hänge die Stichworte unter „Mitschrift“ an (nur anhängen) und hake in der Themenliste ab, was geklärt ist.
-2. Trage Inhalte ins passende Brief-Feld ein, gekennzeichnet mit `(Live JJJJ-MM-TT, unbestätigt)`. Ergänze bestehende Einträge, überschreibe sie nicht. Setze den Brief-Status auf `in Arbeit`.
-3. Antworte in **höchstens 4 Zeilen**, in genau diesem Format:
-   - `📍` Phase/Block (+ Uhrzeit und Soll laut Agenda, falls bekannt)
-   - `⚠ Nachhaken: „…?“`, nur wenn die Antwort vage, allgemein, widersprüchlich oder rechtlich heikel ist, als wörtlich stellbare Frage in Sie-Form
-   - `⏭ Nicht vergessen:` der wichtigste offene `!`-Punkt, der gerade thematisch passt
-   - `⏱`, nur wenn die Zeit knapp wird: was weggelassen oder per Mail nachgeholt werden kann
+- `?`: Liste der noch offenen `!`-Punkte
+- `Z`: Zeitcheck: Wo stehen wir, was lassen wir weg?
+- `weiter`: aktuelle Frage überspringen, als offene Frage notieren
+- `später`: Frage ans Ende oder in die Mail schieben
+- `zurück zu …`: zu einer Phase oder einem Thema zurückspringen
+- `D`: Abschluss einleiten (To-dos des Kunden mit Datum, nächster Termin, offene `!`-Punkte). Nennt die Agenda ein Ende, erinnerst du 20 Minuten vorher von selbst daran.
 
-Aktiv warnen, auch ungefragt, jeweils in einer Zeile: geschützte oder falsche Berufsbezeichnungen, Heil- oder Erfolgsversprechen, Widerspruch zu früheren Aussagen, zum Workbook oder zum Angebot, ein `!`-Punkt, der beim Themenwechsel noch offen ist. Keine Zusammenfassungen, keine Erklärungen, keine Theorie während des Calls.
+**Nach dem Call** (der Nutzer schreibt „Call beendet“, ggf. mit Transkript oder Nachträgen):
 
-Auf `?` listest du alle offenen `!`-Punkte, nach Phase/Block sortiert. Auf `Z` sagst du, wie ihr im Plan liegt und was du jetzt priorisieren würdest. Bei `D` (spätestens 20 Minuten vor Ende, falls die Agenda ein Ende nennt) erinnerst du an: offene `!`-Punkte, To-dos des Kunden mit Datum, nächster Termin.
-
-**Nach dem Call** (der Nutzer schreibt „Call beendet“, ggf. mit Transkript oder weiteren Notizen):
-
-1. Gleiche Mitschrift (und Transkript) mit Themenliste und Brief ab. Liste auf, was geklärt ist, was offen ist und was widersprüchlich ist.
+1. Gleiche Mitschrift und Brief ab. Liste auf, was geklärt ist, was offen ist und was widersprüchlich ist.
 2. Übertrage Praxisdaten in `discovery/kickoff-notizen.md` (Status `ausgefüllt`), sofern der Zusatzblock greift.
-3. Gib die Orga-Ergebnisse als Liste für die Projektnotiz der Agentur aus (sie gehören nicht in den Brief).
-4. Wechsle ins **normale Interview**: Gehe Phase für Phase durch, stelle die `(Live …, unbestätigt)`-Einträge zur Bestätigung vor, entferne nach Bestätigung die Markierung und frag nur die Lücken ab (Spielregeln 1 und 2 gelten wieder). Was der Nutzer nicht beantworten kann, kommt unter „Offene Fragen“. Entwirf auf Wunsch eine Mail an den Kunden mit diesen Fragen, nur als Entwurf.
-5. Synthese und Freigabe wie gewohnt. Ein Brief aus dem Co-Pilot-Modus ist erst nach ausdrücklicher Freigabe abgeschlossen.
+3. Gib die Orga-Ergebnisse als Liste für die Projektnotiz der Agentur aus, dazu ein Gesprächsprotokoll (Datum/Kanal, Teilnehmende, Ergebnisse, Vereinbarungen/To-dos).
+4. Setz das Interview mit den offenen Punkten fort, jetzt im normalen Modus mit dem Nutzer selbst. Was er nicht beantworten kann, kommt unter „Offene Fragen“. Entwirf auf Wunsch eine Mail an den Kunden mit diesen Fragen, nur als Entwurf.
+5. Synthese und Freigabe wie gewohnt. `(Live …)`-Einträge stammen vom Kunden selbst, gelten aber erst mit der Freigabe des Briefs als bestätigt.
 
 ## Die Phasen
 
@@ -299,7 +291,7 @@ Passe das Interview an das Projekt an:
 - **B2B** → mehrere Beteiligte, längerer Zyklus, Vergleichs- und ROI-Inhalte; erfasse das Entscheidungsgremium.
 - **B2C** → Emotion, Transformation und schnelle Wirkung; reduziere die Reibung bis zur Handlung.
 - **Workbook liegt vor** → Workbook-Modus (siehe oben): vorbefüllen, bewerten, nur Lücken und Schwachstellen abfragen.
-- **Live-Gespräch mit dem Kunden** → [Co-Pilot-Modus](#co-pilot-modus-live-im-kundengespräch): Die Agentur spricht, du strukturierst, trägst mit und erinnerst an Nachhak-Fragen.
+- **Live-Gespräch mit dem Kunden** → [Live-Modus](#live-modus-interview-im-kundengespräch): Du führst das Interview, die Agentur stellt deine Fragen dem Kunden und gibt die Antworten als Stichworte zurück.
 - **Praxis / Heilberuf** (Heilpraktiker:in, Heilpraktiker:in für Psychotherapie, Physio-, Ergo-, Logopädie, Ärzt:in, psychologische Beratung, Coaching mit Gesundheitsbezug) → zusätzlich den [Zusatzblock Praxis & Heilberuf](#zusatzblock-praxis--heilberuf) abfragen. Diese Fakten braucht die Website, sie stehen in keinem Workbook und in keiner der Phasen 1–7.
 
 ## Zusatzblock: Praxis & Heilberuf
@@ -341,7 +333,7 @@ Trage die Antworten in den Brief ein: Abschnitt 2 → *Praxisdaten*, Abschnitt 7
 
 ## Nicht Teil der Discovery: Organisation
 
-Zeitplan, Review-Termine, Abwesenheiten, Kommunikationskanäle, Zugänge (Domain, Hosting, Google-Unternehmensprofil, Buchungstool), Abrechnung und Freigabewege klärt die Agentur im **Kickoff** (Agentur-Prozess WD 04, Kickoff-Leitfaden). Frag in der Discovery nicht danach. Erwähnt der Nutzer so etwas, notiere es knapp unter *Offene Fragen* mit dem Präfix `(Orga)` und führe das Interview weiter.
+Zeitplan, Review-Termine, Abwesenheiten, Kommunikationskanäle, Zugänge (Domain, Hosting, Google-Unternehmensprofil, Buchungstool), Abrechnung und Freigabewege klärt die Agentur im **Kickoff** (Agentur-Prozess WD 04, Kickoff-Leitfaden). Frag in der Discovery nicht danach. **Ausnahme:** Im Live-Modus mit Kickoff-Leitfaden führst du den Orga-Block mit (siehe dort), die Antworten kommen aber nicht in den Brief. Erwähnt der Nutzer so etwas sonst, notiere es knapp unter *Offene Fragen* mit dem Präfix `(Orga)` und führe das Interview weiter.
 
 ## Synthese & Brief
 

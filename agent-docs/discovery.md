@@ -51,7 +51,7 @@ Das Offer-Messaging-Workbook ist der Fragebogen, den die Agentur in einem Live-W
 
 ### Ablauf im Workbook-Modus
 
-1. **Einlesen.** Lies alle Workbook-Dateien unter `discovery/` (`workbook*.md`, `.txt`, `.pdf`, `.docx`). Lies außerdem `discovery/kickoff-notizen.md`, falls vorhanden (Input für den Zusatzblock Praxis & Heilberuf). Mehrere Workbooks = mehrere Angebote: Das Angebot mit dem größten Umsatzanteil (frag, falls unklar) ist das Kernangebot für Phase 2; die anderen werden als weitere Angebote notiert.
+1. **Einlesen.** Lies alle Workbook-Dateien unter `discovery/` (`workbook*.md`, `.txt`, `.pdf`, `.docx`) **und** ein in `CLAUDE.md` verlinktes Workbook-Google-Doc (über den Drive-Zugang). Auch ein nur teilweise ausgefülltes Workbook löst den Workbook-Modus aus – leere Felder werden dann regulär abgefragt. Lies außerdem `discovery/kickoff-notizen.md`, falls vorhanden (Input für den Zusatzblock Praxis & Heilberuf). Mehrere Workbooks = mehrere Angebote: Das Angebot mit dem größten Umsatzanteil (frag, falls unklar) ist das Kernangebot für Phase 2; die anderen werden als weitere Angebote notiert.
 2. **Zuordnen.** Übertrage die Antworten anhand der Tabelle unten in den Brief. Kennzeichne jeden übernommenen Eintrag mit `(Workbook)`.
 3. **Bewerten.** Prüfe jede übernommene Antwort mit denselben Maßstäben wie eine Interview-Antwort (Spielregel 3): generisch, leer, widersprüchlich oder ohne Konkretes → markiere sie mit `⚠ nachhaken`. Marketing-Formulierungen aus dem Workbook-Teil „Pitch / One-Liner“ sind Hypothesen, keine Fakten – sie gehören in die Synthese, nicht in die Phasen 1–7.
 4. **Vorstellen statt abfragen.** Für Phasen, die das Workbook weitgehend abdeckt (2, 3, teilweise 4 und 7): Präsentiere dem Nutzer die vorbefüllte Phase als Zusammenfassung, stelle **nur** die Nachhak-Fragen zu den `⚠`-Einträgen und die Fragen, die das Qualitäts-Gate noch offen lässt. Hole die Bestätigung ein und entferne die Markierungen.
@@ -120,9 +120,63 @@ Gibt der Kickoff-Leitfaden eine eigene Praxis-Fassung vor (Teil C), gilt die.
 - **Weitergeben** (Standard): Die Agentur stellt deine Fragen in eigenen Worten und tippt die Antworten zurück.
 - **Gemeinsam** (`/discovery live gemeinsam`): Du stellst die Fragen, die Agentur liest sie wörtlich vor, Kunde und Agentur überlegen gemeinsam, die Agentur tippt die Stichworte, du dokumentierst. Formuliere die Fragen dann so, dass sie ohne Umformulierung vorgelesen werden können.
 - **Fenster geteilt:** Teilt die Agentur dein Fenster im Call, liest der Kunde mit. Dann schreibst du jede Nachricht kundentauglich: keine internen Hinweise (Konditionen, Vertrag, Tracker, Einschätzungen zum Kunden, Empfehlungsgeber), Warnungen neutral als Frage formuliert. Interne Notizen gehen nur in die Mitschrift unter `Intern`.
-- **Gemeinsames Notiz-Dokument:** Oft teilt die Agentur statt deines Fensters die Kundenfassung des Kickoff-Leitfadens (Google Doc im Austausch-Ordner) und tippt die Antworten dort hinein, damit der Kunde sieht, was festgehalten wird. Schreibt die Agentur `ok`, liest du das Dokument ein, übernimmst die neuen Einträge in Mitschrift und Brief (Wortlaut des Kunden bleibt erhalten) und stellst die nächste Frage. Schreib selbst nichts in dieses Dokument, außer die Agentur weist es ausdrücklich an.
+- **Geteilte Dokumente (Standard seit 2026-10-04):** Die Agentur teilt statt deines Fensters **zwei Google Docs** aus dem Austausch-Ordner und tippt die Antworten direkt in deren Felder, damit der Kunde sieht, was festgehalten wird:
+  1. **Kickoff-Fragebogen** (Vorlage `Webdesign/Templates/Projekt/Austausch_Kunde/Kickoff-Fragebogen (Vorlage)`, gleiches Design wie das Workbook) – A Zeitplan · B Organisation & Zugänge · C Praxis & Rahmen (nur Heilberufe) · D Ziel der Website · E Seiten & Funktionen · F Wirkung & Stimme · G Mitbewerber · H Rechtliches & Suchbegriffe · I Nächste Schritte · J Offene Punkte.
+  2. **Offer-Messaging-Workbook** – alle Offer-Messaging-Themen, Feld für Feld.
+  Die frühere „Kundenfassung des Kickoff-Leitfadens“ (Ablauf-Zeitplan-Notizen) entfällt. Schreibt die Agentur `ok`, liest du **das gerade geteilte Dokument** ein (im Zweifel beide), übernimmst die neuen Einträge in Mitschrift und Brief (Wortlaut des Kunden bleibt erhalten) und stellst die nächste Frage. Schreib im Call selbst nichts in diese Dokumente, außer die Agentur weist es ausdrücklich an.
+  - **Farbcode in beiden Dokumenten:** Schwarz = Angaben des Kunden · Blau `◆ AS` = von der Agentur ergänzt oder vorgeschlagen, vom Kunden zu bestätigen · Rot `◆ Offen` = noch zu klären. Ein leeres Feld ist eine offene Frage. Bestätigt der Kunde einen blauen Eintrag, notierst du das in der Mitschrift (`bestätigt`); das Umfärben übernimmt die Agentur.
+  - **Beim `ok`:** Vergleiche mit dem zuletzt gelesenen Stand. Geänderte frühere Antworten übernimmst du in der neuesten Fassung und vermerkst die Korrektur in der Mitschrift. Hat sich das Dokument nicht geändert (Änderungszeit), prüfe, ob die Antwort im anderen der beiden Dokumente oder in einem dritten gelandet ist (z. B. eine Kopie, eine Test- statt Kundenfassung, ein eigenes Notiz-Dokument des Kunden), und melde das sofort in einer Zeile.
+  - **Eigene Dokumente des Kunden:** Prüfe in der Vorbereitung den Austausch-Ordner auf Dokumente, die der Kunde selbst angelegt oder ergänzt hat (Notizen, Kopien des Workbooks). Inhalte daraus übernimmst du wie Antworten (Quelle in Klammern) und meldest den Fund der Agentur.
+  - **Einverständnis** zur Mitschrift bestätigt die Agentur mit `Einverständnis ja`; vorher bleibt der Punkt offen.
+  - **Kurze Nachrichten im Call:** Statuszeile, höchstens eine Kontextzeile (Ausfüllhinweis), die Frage. Keine Tabellen, keine Protokolle dessen, was du einträgst – das steht in Mitschrift und Brief.
 
-**Organisation im Live-Modus:** Gibt die Agentur einen Kickoff-Leitfaden oder eine Agenda mit Orga-Block mit, führst du **zuerst den Orga-Block** mit den Fragen aus Teil A des Leitfadens. Dann folgt der Zusatzblock (bei Praxen), dann das Interview. Orga-Antworten kommen in den Abschnitt `Orga (für die Projektnotiz)` der Mitschrift, **nicht** in den Brief.
+**Workbook im Live-Modus: immer komplett, direkt im Workbook.** Im Live-Modus wird das Offer-Messaging-Workbook **vollständig** abgefragt und **live im Workbook selbst** ausgefüllt (nicht mehr in einem separaten Notiz-Dokument mit späterem Übertrag) – keine geplante Aufteilung in Teil 1 / Teil 2. Reicht die Zeit nicht, macht ein Folgetermin genau bei den leeren, blauen und roten Feldern weiter. Ausnahme: *Thema der Erzählung*, *Pitch* und *One-Liner* schreibt die Agentur nach dem Call als Entwurf (Synthese); sie werden nicht im Call erfragt. Phasen, die das Workbook nicht abdeckt (5 Seiten, 6 Stimme/Referenzen), dürfen als Hausaufgabe oder per Mail laufen.
+
+- **Vorbefüllen (vor dem Call, nur mit Freigabe der Agentur):** Was aus Vorgespräch, früheren Calls oder Notizen des Kunden schon bekannt ist, schlägst du der Agentur feldweise als Entwurf vor (`00_Kick-Off/JJJJ-MM-TT_Workbook-Vorbefuellung_Entwurf.md`). Nach ausdrücklicher Freigabe trägst du es **blau mit `◆ AS (Quelle)`** in Workbook und Kickoff-Fragebogen ein – nur in leere Felder oder als Zusatzzeile unter den Text des Kunden, nie überschreibend. Lies danach beide Dokumente per Export gegen und prüfe, dass der Text des Kunden unverändert ist.
+- **Im Call:** Schwarze Felder nur kurz bestätigen lassen, blaue Felder gezielt bestätigen oder korrigieren lassen, rote und leere Felder regulär fragen, `⚠ nachhaken`-Punkte aus dem Brief gezielt nachfragen.
+- **Ausfüllhinweise mitliefern:** Lies in der Vorbereitung die Workbook-Vorlage der Agentur (`Webdesign/Templates/Projekt/Messaging-Workbook`, Google Doc – sonst die Tabelle unten). Setze zu jeder Workbook-Frage den passenden Hinweis als **Kontextzeile** vor die Frage. Im Modus *gemeinsam* formulierst du den Hinweis kundentauglich, damit er mit vorgelesen werden kann („Zum Beispiel …“, „Eine Vermutung reicht“).
+- **Reihenfolge:** Phase-1-Frage (Hauptergebnis), dann die Workbook-Felder in der Reihenfolge der Tabelle.
+- **Zeit:** Der Workbook-Block hat Vorrang. Richtwert je offene Frage 3–4 Minuten. Reicht die Zeit nicht, kürzt du zuerst den Orga-Block (nur `!`-Punkte, Rest per Mail) und die `~`-Punkte – nie Workbook-Felder. `Z` schlägt Kürzungen in genau dieser Reihenfolge vor.
+
+| # | Workbook-Feld | Ausfüllhinweis (Vorlage) | Frage zum Vorlesen (Praxis-Fassung, bei anderen Branchen sinngemäß) |
+|---|---|---|---|
+| 1 | Produkt / Dienstleistung | Ein Workbook = **eine** Dienstleistung, am besten die mit dem größten Umsatzanteil | „Welches Ihrer Angebote soll die Website vor allem tragen?“ |
+| 2 | Zielkunde · sekundäre Käufer | Sehr spezifisch beschreiben (Buying Persona) · wer kauft außerdem, ohne Zielkunde zu sein | „Beschreiben Sie einen typischen Menschen, der zu Ihnen kommt – und wer kommt außerdem?“ |
+| 3 | Preis oder Preisspanne | – | „Was kostet eine Sitzung, und soll der Preis auf der Website stehen?“ |
+| 4 | Problem / Gelegenheit | Das **primäre** Problem, das gelöst wird, oder die Chance, die entsteht (nicht die Methoden) | „Mit welchem Anliegen kommen Menschen zu Ihnen – und wie sagen sie es selbst?“ |
+| 5 | Beschreibung | Spezifisch · in der Sprache des Käufers · was versteht man, was nicht · mit Bekanntem vergleichen | „Wie erklären Sie Ihre Arbeit jemandem, der noch nie bei [Berufsbezeichnung] war?“ |
+| 6 | Warum interessieren | Gründe, die der Kunde wahrscheinlich schon selbst erkannt hat | „Was ist Menschen wichtig, wenn sie sich für Sie entscheiden?“ |
+| 7 | Genaues Versprechen | **Ein** Kernversprechen = Hauptthema der Website · bei Heilberufen: Rahmen statt Ergebnis (HWG) | „Was dürfen Menschen von der Zusammenarbeit mit Ihnen erwarten – Art und Rahmen der Begleitung?“ |
+| 8 | Beweis | Nicht nur Testimonials: Belege, Aussagen Dritter · bei Heilberufen: Qualifikation | „Was macht Sie vertrauenswürdig – Ausbildung, Erfahrung, Verband, Supervision?“ |
+| 9 | 3 Merkmale | Eigenschaft der Leistung, im Vergleich zur Konkurrenz | „Nennen Sie drei Dinge, die Ihre Arbeitsweise ausmachen.“ |
+| 10 | 3 Vorteile | Vorteil = warum die Eigenschaft nützlich ist („Oma und 32 GB“) | „Was haben Menschen davon – ganz konkret?“ |
+| 11 | Warum nicht die Konkurrenz | Schwächen der Alternativen vs. eigene Stärken · bei Heilberufen ohne Herabsetzung | „Wohin gehen Menschen sonst, und wann sind Sie die passendere Anlaufstelle – und wann nicht?“ + 2–3 Wettbewerber mit Website |
+| 12 | 3 Wünsche | Passt zu Merkmalen/Vorteilen · eine Vermutung reicht | „Was wünschen sich Menschen, wenn sie zu Ihnen kommen? Eine Vermutung reicht.“ |
+| 13 | 3 Trigger | Auslöser und „Reise“ bis zum Kauf · Schlüsselauslöser? Hörensagen? | „In welchem Moment melden sich Menschen – und wie haben sie Sie gefunden?“ |
+| 14 | Glauben über Leistung · über Sie · über sich selbst | Branchen-Standards erklären, die man später erfüllt · der Käufer darf sich den Schritt nicht ausreden | „Was muss jemand über Ihre Arbeit, über Sie und über sich selbst glauben, um sich zu melden?“ |
+| 15 | Kunden, mit denen wir sprechen können | Einblicke in die Kaufentscheidung · bei Heilberufen: keine Klient:innen | „Gibt es Kolleg:innen oder Zuweiser, die wir fragen dürfen?“ |
+| 16 | 3–5 Erkenntnisse | Was ist wichtig, dem typischen Kunden aber nicht bekannt? (FAQ-Material) | „Was wissen Interessierte vorher oft nicht – und sollten es wissen?“ |
+| 17 | Hasst / mag an der Konkurrenz | „Mag“: vermeintlichen Vorteil aufgreifen und umdrehen · bei Heilberufen allgemein, ohne Namen | „Was schätzen Menschen an anderen Anlaufstellen, und was stört sie dort?“ |
+| 18 | 3 schlechte Szenarien | Narrative aus schlechten Szenarien · bei Heilberufen ersetzt (keine Angstwerbung) | „Was hält Menschen davon ab, sich früher Hilfe zu holen?“ |
+| 19 | Hindernisse beim Kauf | Wer und was steht im Weg? | „Was steht zwischen Interesse und Anruf – und wer?“ |
+| 20 | 4 Kennzahlen | Eventuell erst in zweiter Schleife · bei Heilberufen: keine Erfolgsquoten | „Welche Zahlen dürfen wir nennen – Jahre, Weiterbildungen?“ |
+| 21 | 3 Einwände + Antworten | – | „Welche Bedenken hören Sie am häufigsten, und was antworten Sie?“ |
+| 22 | Was muss noch gesagt werden | – | „Was sollte noch gesagt werden, das wir nicht gefragt haben?“ |
+| – | Thema · Pitch · One-Liner | 1–2 Sätze Narrativ · Pitch (Problem, Lösung, Vorteile, Anbieter, Beweis, Einwände, Mission) · One-Liner: Was, für wen, warum wichtig | **Nicht im Call** – Agentur-Entwurf zum Gegenlesen |
+
+**Organisation im Live-Modus:** Reihenfolge im Call = Reihenfolge der Dokumente: **Kickoff-Fragebogen A–D** (Zeitplan, Organisation, Praxis & Rahmen, Ziel), dann **Workbook** Feld für Feld, dann **Kickoff-Fragebogen E–J** (Seiten, Stimme, Mitbewerber, Rechtliches – bei Zeitdruck als Hausaufgabe – und zum Schluss Nächste Schritte, offene Punkte). Der interne Kickoff-Leitfaden bleibt Fahrplan und Plan B; seine Teil-E-Punkte übernimmst du in die Themenliste. Antworten aus A und B (Orga) kommen in den Abschnitt `Orga (für die Projektnotiz)` der Mitschrift, **nicht** in den Brief; C–H gehen in den Brief (Zuordnung siehe unten).
+
+**Zuordnung Kickoff-Fragebogen → Brief / Mitschrift**
+
+| Fragebogen | Ziel |
+|---|---|
+| A Zeitplan · B Organisation & Zugänge · I Nächste Schritte · J Offene Punkte | Mitschrift `Orga (für die Projektnotiz)` · Offene Fragen mit Präfix `(Orga)` |
+| C Praxis & Rahmen | Brief 2 *Praxisdaten*, 7 *Pflichtangaben* · `discovery/kickoff-notizen.md` |
+| D Ziel der Website | Brief 1 (Hauptergebnis, Warum jetzt, Wahrnehmungsänderung) |
+| E Seiten & Funktionen | Brief 5 |
+| F Wirkung & Stimme | Brief 6 (Tonalitätswörter, Anrede, Referenz-Websites, Tabus) |
+| G Mitbewerber | Brief 4 *Wettbewerber* |
+| H Rechtliches & Suchbegriffe | Brief 7 *Einschränkungen*, *Ziel-Keywords* |
 
 **Individuelle Fragen (Leitfaden Teil E):** Der Kickoff-Leitfaden hat einen Teil *E Projektspezifische Fragen* für alles, was nur dieses Projekt betrifft und weder im Standard-Leitfaden noch in den Phasen steht. Übernimm diese Punkte in die Themenliste und frag sie in dem Block, dem sie zugeordnet sind. Weitere Fragen kann die Agentur jederzeit mit `+ …` ergänzen.
 
@@ -130,13 +184,14 @@ Gibt der Kickoff-Leitfaden eine eigene Praxis-Fassung vor (Teil C), gilt die.
 
 1. Lies `discovery/brief.md`, `discovery/kickoff-notizen.md`, vorhandene Workbooks und die Unterlagen, die der Nutzer nennt (Leitfaden, frühere Gesprächsnotizen).
 2. Liegt ein Workbook vor: Workbook-Modus-Schritte 1–3. Die `⚠ nachhaken`-Punkte fragst du im Call gezielt ab. Liegt keins vor oder ist es leer: Die Phasen 2–4 decken die Workbook-Inhalte ab.
-3. Lege `discovery/mitschrift-JJJJ-MM-TT.md` an mit **Themenliste** (alle offenen Punkte aus Orga, Leitfaden Teil E, Zusatzblock und den Qualitäts-Gates, markiert mit `!` = heute klären, `~` = kann nachgeholt werden, `✓` = schon bekannt), **Orga (für die Projektnotiz)** und **Mitschrift**.
-4. Zeig dem Nutzer den Ablaufplan: welche Blöcke in welcher Reihenfolge, grob getaktet auf die Agenda. Dazu die 3 heikelsten Themen mit je einem Satz, wie man sie anspricht. Kläre die Arbeitsweise (weitergeben oder gemeinsam, Fenster geteilt ja/nein). Dann warte auf „Start“.
+3. Prüfe den Austausch-Ordner: Gibt es Kickoff-Fragebogen und Workbook (sonst aus den Vorlagen anlegen lassen)? Hat der Kunde selbst etwas ergänzt oder eigene Dokumente angelegt? Erstelle den Vorbefüllungs-Entwurf (siehe *Workbook im Live-Modus*) und trage ihn nach Freigabe ein.
+4. Lege `discovery/mitschrift-JJJJ-MM-TT.md` an mit **Themenliste** (alle offenen Punkte aus Orga, Leitfaden Teil E, Zusatzblock, **allen Workbook-Feldern** (vorbefüllte als `✓`) und den Qualitäts-Gates, markiert mit `!` = heute klären, `~` = kann nachgeholt werden, `✓` = schon bekannt), **Orga (für die Projektnotiz)** und **Mitschrift**.
+5. Zeig dem Nutzer den Ablaufplan: welche Blöcke in welcher Reihenfolge, grob getaktet auf die Agenda (Richtwert bei 2 Stunden: Begrüßung 3 Min., Fragebogen A–D 25 (Orga 10, Praxis 10, Ziel 5), Workbook 75, Fragebogen E–J und Abschluss 15). Bei einem Folgetermin nur die offenen Felder takten (Richtwert 3–4 Min. je Feld). Steht in Agenda oder Kundenfassung noch eine Aufteilung „Workbook Teil 1 / Teil 2“, weise darauf hin. Dazu die 3 heikelsten Themen mit je einem Satz, wie man sie anspricht. Kläre die Arbeitsweise (weitergeben oder gemeinsam, Fenster geteilt ja/nein). Dann warte auf „Start“.
 
 **Kurzbefehle während des Calls:**
 
 - `?`: Liste der noch offenen `!`-Punkte
-- `Z`: Zeitcheck: Wo stehen wir, was lassen wir weg?
+- `Z`: Zeitcheck: Soll/Ist je Block, verbleibende `!`-Punkte mit Minuten, Kürzungsvorschlag (erst Orga-Rest, dann `~` – nie Workbook-Felder)
 - `weiter`: aktuelle Frage überspringen, als offene Frage notieren
 - `später`: Frage ans Ende oder in die Mail schieben
 - `zurück zu …`: zu einer Phase oder einem Thema zurückspringen

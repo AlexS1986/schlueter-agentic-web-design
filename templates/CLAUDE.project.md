@@ -21,7 +21,8 @@
 | Dieser Projektordner (Kundenordner) | `Webdesign/Projekte/[Kunde]/` – enthält diese Datei, `AGENTS.md`, `agent-docs/`, `discovery/` und die Unterordner 00–08 |
 | Code (WordPress/Etch-Exports, Theme, Assets) | `05_Entwicklung/` – ab Phase 10 |
 | Discovery-Brief | `discovery/brief.md` – Status: [nicht begonnen / in Arbeit / abgeschlossen / freigegeben am …] |
-| Offer-Messaging-Workbook | `discovery/workbook-*.md` [vorhanden / nicht vorhanden] |
+| Kickoff-Fragebogen | Google Doc im Austausch-Ordner (aus Vorlage `Webdesign/Templates/Projekt/Austausch_Kunde/Kickoff-Fragebogen (Vorlage)`) – [Link] · im Call geteilt, Blöcke A–J |
+| Offer-Messaging-Workbook | Google Doc im Austausch-Ordner – [Link] · im Call geteilt; oder `discovery/workbook-*.md` [vorhanden / nicht vorhanden] |
 | Sitemap & Seitenzweck-Matrix | [Drive-Link oder Pfad] |
 | Paper Design (Wireframes, UI) | [URL / Dateiname] – ab Phase 8 |
 | Staging | [URL] – Zugang über Passwort-Manager (nie hier eintragen) – ab Phase 10 |

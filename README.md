@@ -55,6 +55,19 @@ discovery/workbook-yogakurse.md      # oder .txt / .pdf / .docx
 
 `/discovery` läuft dann im **Workbook-Modus**: Der Brief wird aus dem Workbook vorbefüllt (Einträge mit `(Workbook)` markiert), schwache oder fehlende Antworten bekommen `⚠ nachhaken`, und das Interview fragt nur diese Punkte sowie die Phasen ab, die das Workbook nicht abdeckt (Projekt & Ziel, Seiten & Struktur, Marke & Stimme, Wettbewerber-Namen, Assets, Rechtliches, Keywords). Zuordnung Workbook → Brief: siehe `agent-docs/discovery.md`, Abschnitt „Optionaler Input“.
 
+## Bestehendes Projekt auf den neuesten Prozess bringen
+
+```bash
+cd "Webdesign/Projekte/<Kunde>"
+schlueter-agentic-web-design --force   # nach einmaligem `npm link` im Master-Ordner (siehe unten)
+```
+
+`--force` erneuert `AGENTS.md`, `agent-docs/` und `.claude/commands/`. `CLAUDE.md`, `discovery/brief.md` und `discovery/kickoff-notizen.md` bleiben unverändert. Projektspezifische Änderungen an `agent-docs/` vorher in den Master übernehmen, sonst werden sie überschrieben.
+
+### Discovery live: geteilte Dokumente (ab v0.2.7)
+
+Im Call teilt die Agentur zwei Google Docs aus dem Austausch-Ordner: den **Kickoff-Fragebogen** (Blöcke A–J) und das **Offer-Messaging-Workbook** (beide im Workbook-Design). Reihenfolge: Fragebogen A–D → Workbook → Fragebogen E–J. Vor dem Call füllt der Agent – nach Freigabe – Geklärtes blau vor („◆ AS – bitte bestätigen“), im Call wird nur bestätigt und Offenes gefragt. Details: `agent-docs/discovery.md`, Abschnitt Live-Modus.
+
 ## Lokal ohne npm nutzen
 
 ```bash

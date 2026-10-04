@@ -15,7 +15,7 @@
 
 | Was | Wo |
 |---|---|
-| Prozess & Fortschritt (Obsidian) | Vault `GTD` → `02 Projects/Webdesign/Project - [Kunde]` und `Tracker - [Kunde] (Webdesign)` |
+| Prozess & Fortschritt (Obsidian) | Vault `GTD` → `02 Projects/Webdesign/Project - [Kunde]` (ein Dokument: Steckbrief oben, darunter alle Prozessschritte mit Feldern und Anleitung) |
 | Prozess-Beschreibung | Vault `GTD` → `05 Reference/Prozesse/Prozess Webdesign` |
 | Kundenordner (Drive) | [URL] – Angebot, Freigaben, Inhalte, Fotos, Reports |
 | Dieser Projektordner (Kundenordner) | `Webdesign/Projekte/[Kunde]/` – enthält diese Datei, `AGENTS.md`, `agent-docs/`, `discovery/` und die Unterordner 00–08 |
@@ -30,7 +30,7 @@
 
 ## Google-Unternehmensprofil *(nur bei GBP-Mandat)*
 
-- **Mandat:** [Setup / Setup + Betreuung / keins] · Tracker in Obsidian: `Tracker - [Kunde] (GBP)`
+- **Mandat:** [Setup / Setup + Betreuung / keins] · Projektdokument in Obsidian: `Project - [Kunde] GBP`
 - **Profil:** [Google-Maps-Link] – Zugang: Verwalter per Einladung (kein Passwort)
 - **Ausgangswerte:** `08_GBP/Baseline/` – bestätigt am [Datum]
 - **UTM-Konvention:** [utm_source=google&utm_medium=organic&utm_campaign=gbp-…] – identisch für Website und Profil
@@ -51,7 +51,7 @@
 |---|---|---|---|
 | [JJJJ-MM-TT] | 4 Onboarding | – | Discovery starten (`/discovery`) |
 
-**Aktuell in Arbeit:** [Phase, Schritt-Nummer aus dem Tracker, Kurzbeschreibung]
+**Aktuell in Arbeit:** [Phase, Schritt-Nummer aus dem Projektdokument, Kurzbeschreibung]
 
 ## Regeln für Agenten in diesem Projekt
 

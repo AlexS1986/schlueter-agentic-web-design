@@ -66,7 +66,7 @@ schlueter-agentic-web-design --force   # nach einmaligem `npm link` im Master-Or
 
 ### Discovery live: geteilte Dokumente (ab v0.2.7)
 
-Im Call teilt die Agentur zwei Google Docs aus dem Austausch-Ordner: den **Kickoff-Fragebogen** (Blöcke A–J) und das **Offer-Messaging-Workbook** (beide im Workbook-Design). Reihenfolge: Fragebogen A–D → Workbook → Fragebogen E–J. Vor dem Call füllt der Agent – nach Freigabe – Geklärtes blau vor („◆ AS – bitte bestätigen“), im Call wird nur bestätigt und Offenes gefragt. Details: `agent-docs/discovery.md`, Abschnitt Live-Modus.
+Im Call teilt die Agentur zwei Google Docs aus dem Austausch-Ordner: den **Kickoff-Fragebogen** (Blöcke A–J) und das **Offer-Messaging-Workbook** (beide im Workbook-Design). Reihenfolge: Fragebogen A–D → Workbook → Fragebogen E–J. Vor dem Call füllt der Agent – nach Freigabe – Geklärtes blau vor („◆ AS – bitte bestätigen“) und trägt je Feld eine branchenspezifische Beispielantwort grün ein („◆ Beispiel (AS, zur Inspiration)“, ab v0.2.8); im Call wird nur bestätigt und Offenes gefragt. Die Workbook-Vorlage beginnt mit dem Block *Bevor Sie beginnen* (Zweck, Antwortqualität, Farbcode). Details: `agent-docs/discovery.md`, Abschnitt Live-Modus.
 
 ## Lokal ohne npm nutzen
 
